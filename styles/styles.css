@@ -178,3 +178,33 @@ img {
   border-radius: 27px;
   fill: #fcfcfc;
 }
+
+/* Кнопка входа */
+
+.login-button {
+  width: 88px;
+  height: 32px;
+  border-radius: 30px;
+  background-color: rgba(252, 252, 252, 0.3);
+  fill: #2d3440;
+}
+
+.login-button:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.login-button:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  border: 2px solid #000000;
+}
+
+.login-button:focus-visible {
+  outline: none;
+  background-color: #fcfcfc;
+}
+
+.login-button:focus-within {
+  background-color: #ff4a78;
+  fill: #fcfcfc;
+  color: #fcfcfc;
+}
