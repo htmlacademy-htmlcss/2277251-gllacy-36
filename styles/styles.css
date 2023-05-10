@@ -527,3 +527,44 @@ img {
 .header-right-item-search:focus-within .search-popover-control {
   display: block;
 }
+
+/* Поповер корзины */
+
+.header-right-item-cart {
+  position: relative;
+}
+
+.cart-popover {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 441px;
+  min-height: 382px;
+  background-color: #fcfcfc;
+  padding: 48px;
+  border-radius: 4px;
+}
+
+.cart-popover-content {
+  height: 100%;
+}
+
+.cart-popover-control {
+  display: none;
+}
+
+.header-right-item-cart:focus-within .cart-popover-control {
+  display: block;
+}
+
+.popover-item-close-button {
+  width: 10px;
+  height: 10px;
+  border: none;
+  background-image: url("../images/popover-delete-item-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 3px;
+}
