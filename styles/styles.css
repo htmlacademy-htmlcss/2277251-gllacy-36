@@ -478,6 +478,20 @@ img {
   color: #2d3440;
 }
 
+/* Блок с описанием магазина Глейси */
+
+.about-us-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2d3440;
+  }
+
+.about-us-description-item {
+  color: #565c66;
+}
+
 /* Пагинация в каталоге*/
 
 .pagination-prev {
