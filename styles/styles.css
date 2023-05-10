@@ -334,3 +334,9 @@ img {
   outline: 2px solid #2d3440;
   fill: #2d3440;
 }
+
+/* Слайдер */
+
+.slider-small-image {
+  opacity: 0.4;
+}
