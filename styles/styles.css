@@ -449,6 +449,35 @@ img {
   color: #2d3440;
 }
 
+/* Блок с товарами на главной странице */
+
+.popular-goods-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2d3440;
+}
+
+.goods-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.goods-description {
+  color: #565c66;
+}
+
+.goods-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
 /* Пагинация в каталоге*/
 
 .pagination-prev {
