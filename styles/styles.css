@@ -189,6 +189,10 @@ img {
   width: 88px;
   height: 32px;
   border-radius: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   background-color: rgba(252, 252, 252, 0.3);
   fill: #2d3440;
 }
@@ -219,6 +223,10 @@ img {
   width: 115px;
   height: 32px;
   background-color: rgba(252, 252, 252, 0.3);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   fill: #2d3440;
   border-radius: 30px;
 }
@@ -338,6 +346,23 @@ img {
   outline: 2px solid #2d3440;
   fill: #2d3440;
 }
+
+/* Хедер */
+
+.header-navigation-link {
+  text-decoration: none;
+  color: #2d3440;
+  line-height: 20px;
+}
+
+.header-tel-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #2d3440;
+  line-height: 20px;
+}
+
+
 
 /* Слайдер */
 
