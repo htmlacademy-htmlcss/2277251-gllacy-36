@@ -568,3 +568,33 @@ img {
   cursor: pointer;
   padding: 3px;
 }
+
+/* Поповер входа в личный кабинет */
+
+.header-right-item-login {
+  position: relative;
+}
+
+.login-popover {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 420px;
+  min-height: 350px;
+  background-color: #fcfcfc;
+  padding: 48px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.login-popover-content {
+  height: 100%;
+}
+
+.login-popover-control {
+  display: none;
+}
+
+.header-right-item-login:focus-within .login-popover-control {
+  display: block;
+}
