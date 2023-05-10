@@ -434,3 +434,28 @@ img {
   outline-offset: -1px;
   border-radius: 50px;
 }
+
+/* Иконки социальных сетей */
+
+.slider-socials-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  outline: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 24px;
+}
+
+.slider-socials-link:hover {
+  background-color: #2d3440;
+  outline: 2px solid rgba(252, 252, 252, 0.5);
+}
+
+.slider-socials-link:active {
+  opacity: 0.5;
+}
+
+.slider-socials-link:focus-visible  {
+  background-color: #2d3440;
+  outline: 2px solid #2d3440;
+  outline-offset: inherit;
+}
