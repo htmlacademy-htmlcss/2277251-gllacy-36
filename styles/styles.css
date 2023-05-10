@@ -21,3 +21,8 @@ img {
   max-width: 100%;
   object-fit: contain;
 }
+
+.page-container {
+  width: 1170px;
+  margin: 0 auto;
+}
