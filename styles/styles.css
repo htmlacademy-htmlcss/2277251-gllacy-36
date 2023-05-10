@@ -377,3 +377,60 @@ img {
   border-radius: 100px;
   opacity: 1;
 }
+
+/* Пагинация в каталоге*/
+
+.pagination-prev {
+  display: block;
+  width: 6px;
+  height: 11px;
+  background-image: url("../images/pagination-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagination-next {
+  display: block;
+  width: 6px;
+  height: 11px;
+  background-image: url("../images/pagination-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.pagination-disable {
+  opacity: 0.3;
+}
+
+.pagination-link {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  color: #2d3440;
+  padding: 2px 8px;
+}
+
+.pagination-current {
+  background-color: #fcfcfc;
+  border-radius: 50px;
+}
+
+.pagination-link:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+  border-radius: 50px;
+}
+
+.pagination-link:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid #fcfcfc;
+  outline-offset: -1px;
+}
+
+.pagination-link:focus-visible {
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 1px solid #2d3440;
+  outline-offset: -1px;
+  border-radius: 50px;
+}
