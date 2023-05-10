@@ -593,6 +593,24 @@ img {
   color: #565c66;
 }
 
+/* Футер */
+
+.footer-link {
+  text-decoration: none;
+  color: #2d3440;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-link-heart {
+  font-weight: 700;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+}
 
 /* Пагинация в каталоге*/
 
