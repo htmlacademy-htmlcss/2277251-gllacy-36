@@ -238,3 +238,37 @@ img {
   fill: #fcfcfc;
   color: #fcfcfc;
 }
+
+/* Кнопка "Добавить в корзину" */
+
+.button-add-to-cart {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #ff2f64;
+  border-radius: 26px;
+  cursor: pointer;
+  fill: #fcfcfc;
+}
+
+.button-add-to-cart:hover {
+  border: 2px solid #ff2f64;
+  background-color: #fcfcfc;
+  fill: #000000;
+}
+
+.button-add-to-cart:active {
+  background-color: #ffcbd8;
+}
+
+.button-add-to-cart:focus-visible {
+  outline: none;
+  border: 2px solid #2d3440;
+}
+
+.button-add-to-cart:disabled {
+  background-color: #b9b9b9;
+  fill: #565c66;
+  border: none;
+  cursor: not-allowed;
+}
