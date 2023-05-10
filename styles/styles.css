@@ -489,3 +489,41 @@ img {
 .header-navigation-item-catalog:focus-within .catalog-popover-control {
   display: block;
 }
+
+/* Поповер поиска */
+
+.header-right-item-search {
+  position: relative;
+}
+
+.search-popover {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 356px;
+  min-height: 96px;
+  background-color: #fcfcfc;
+  padding: 24px 16px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.search-popover-content {
+  height: 100%;
+}
+
+.search-popover-input {
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 324px;
+  min-height: 48px;
+  padding-left: 16px;
+}
+
+.search-popover-control {
+  display: none;
+}
+
+.header-right-item-search:focus-within .search-popover-control {
+  display: block;
+}
