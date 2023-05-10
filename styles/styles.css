@@ -303,3 +303,34 @@ img {
   opacity: 0.4;
   outline: 2px solid #fcfcfc;
 }
+
+/* Кнопки переключатели в слайдере */
+
+.slider-button {
+  width: 38px;
+  height: 38px;
+  background-color: rgba(252, 252, 252, 0.3);
+  fill: #fcfcfc;
+  outline: 2px solid #fcfcfc;
+  border-radius: 26px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.slider-button:hover {
+  background-color: #fcfcfc;
+  fill: #2d3440;
+  outline: 2px solid #fcfcfc;
+}
+
+.slider-button:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid rgba(252, 252, 252, 0.5);
+}
+
+.slider-button:focus-visible {
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 2px solid #2d3440;
+  fill: #2d3440;
+}
