@@ -78,3 +78,38 @@ img {
   text-decoration: none;
   border-radius: 26px;
 }
+
+/* Кнопки "Основные" */
+
+.main-button {
+  background-color: #fcfcfc;
+  color: #2d3440;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  padding: 12px 32px;
+}
+
+.main-button:hover {
+  background-color: rgba(252, 252, 252, 0.4);
+  outline: 4px solid #fcfcfc;
+  box-shadow: 0 4px 15px rgba(133, 133, 133, 0.15);
+}
+
+.main-button:active {
+  background-color: #fcfcfc;
+  outline: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
+.main-button:focus-visible {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
+.main-button:disabled {
+  background-color: #e7e7e7;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  color: #b9b9b9;
+  cursor: not-allowed;
+}
