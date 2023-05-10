@@ -367,8 +367,6 @@ img {
   line-height: 20px;
 }
 
-
-
 /* Слайдер */
 
 .slider-small-image {
@@ -426,6 +424,29 @@ img {
   outline-offset: -1px;
   border-radius: 100px;
   opacity: 1;
+}
+
+/* Секция баннеров с подарками */
+
+.banners-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2d3440;
+}
+
+.gift-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+}
+
+.gift-description {
+  color: #2d3440;
 }
 
 /* Пагинация в каталоге*/
