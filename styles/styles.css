@@ -563,6 +563,36 @@ img {
   color: #b9b9b9;
 }
 
+/* Блок "Обратная связь" */
+
+.contacts-description {
+  color: #565c66;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-address-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contacts-phone {
+  text-decoration: none;
+  color: #2d3440;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contacts-phone-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #565c66;
+}
+
 
 /* Пагинация в каталоге*/
 
