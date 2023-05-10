@@ -459,3 +459,33 @@ img {
   outline: 2px solid #2d3440;
   outline-offset: inherit;
 }
+
+/* Поповер каталога */
+
+.header-navigation-item-catalog {
+  position: relative;
+}
+
+.catalog-popover {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 135px;
+  min-height: 188px;
+  background-color: #fcfcfc;
+  padding: 16px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.catalog-popover-content {
+  height: 100%;
+}
+
+.catalog-popover-control {
+  display: none;
+}
+
+.header-navigation-item-catalog:focus-within .catalog-popover-control {
+  display: block;
+}
