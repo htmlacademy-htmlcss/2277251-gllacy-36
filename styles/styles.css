@@ -16,3 +16,8 @@ body {
   background-color: #feafc3;
   color: #000000;
 }
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
