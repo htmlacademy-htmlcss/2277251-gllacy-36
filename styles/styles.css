@@ -148,3 +148,33 @@ img {
   color: #565c66;
   outline: 4px solid rgba(185, 185, 185, 0.3);
 }
+
+/* Кнопка поиска */
+
+.search-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 27px;
+  background-color: rgba(252, 252, 252, 0.3);
+  fill: #2d3440;
+}
+
+.search-button:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.search-button:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  border: 2px solid #2d3440;
+}
+
+.search-button:focus-visible {
+  outline: none;
+  background-color: #fcfcfc;
+}
+
+.search-button:focus-within {
+  background-color: #ff4a78;
+  border-radius: 27px;
+  fill: #fcfcfc;
+}
