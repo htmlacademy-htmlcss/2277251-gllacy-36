@@ -340,3 +340,40 @@ img {
 .slider-small-image {
   opacity: 0.4;
 }
+
+/* Пагинация в слайдере */
+
+.slider-pagination-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.slider-pagination-button-current {
+  opacity: 1;
+}
+
+.slider-pagination-button:hover {
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 1px solid #fcfcfc;
+  outline-offset: -1px;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.slider-pagination-button:active {
+  background-color: #fcfcfc;
+  outline: none;
+  opacity: 0.5;
+}
+
+.slider-pagination-button:focus-visible {
+  background: rgba(252, 252, 252, 0.3);
+  outline: 1px solid #2d3440;
+  outline-offset: -1px;
+  border-radius: 100px;
+  opacity: 1;
+}
