@@ -333,6 +333,10 @@ img {
 /* Кнопка "Применить" в фильтре */
 
 .filter-additional-button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
   background-color: rgba(252, 252, 252, 0.3);
   color: #2d3440;
   outline: 2px solid #fcfcfc;
@@ -713,6 +717,34 @@ img {
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
+  color: #2d3440;
+}
+
+/* Фильтр на внутренней странице */
+
+.ice-cream-filter-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.ice-cream-filter-select {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.input-radio-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.input-checkbox-text {
+  font-size: 14px;
+  line-height: 20px;
   color: #2d3440;
 }
 
