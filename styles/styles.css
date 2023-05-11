@@ -192,6 +192,18 @@ img {
   fill: #fcfcfc;
 }
 
+.search-button:focus-within:hover {
+  opacity: 0.6;
+}
+
+.search-button:focus-within:active {
+  opacity: 1;
+}
+
+.search-button:focus-within:focus-visible {
+  opacity: 0.3
+}
+
 /* Кнопка входа */
 
 .login-button {
@@ -226,6 +238,18 @@ img {
   color: #fcfcfc;
 }
 
+.login-button:focus-within:hover {
+  opacity: 0.6;
+}
+
+.login-button:focus-within:active {
+  opacity: 1;
+}
+
+.login-button:focus-within:focus-visible {
+  opacity: 0.3
+}
+
 /* Кнопка корзины */
 
 .cart-button {
@@ -258,6 +282,18 @@ img {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
+}
+
+.cart-button:focus-within:hover {
+  opacity: 0.6;
+}
+
+.cart-button:focus-within:active {
+  opacity: 1;
+}
+
+.cart-button:focus-within:focus-visible {
+  opacity: 0.3
 }
 
 /* Кнопка "Добавить в корзину" */
@@ -379,6 +415,7 @@ img {
 .header-navigation-link-catalog {
   text-decoration: none;
   color: #2d3440;
+  fill: #2d3440;
   line-height: 20px;
   padding: 8px 26px 8px 16px;
 }
@@ -394,6 +431,40 @@ img {
   color: #2d3440;
   line-height: 20px;
   padding: 8px 16px;
+}
+
+.header-navigation-link:hover,
+.header-navigation-link-catalog:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+  border-radius: 30px;
+}
+
+.header-navigation-link:active,
+.header-navigation-link-catalog:active {
+  background-color: #fcfcfc;
+}
+
+.header-navigation-link:focus-visible,
+.header-navigation-link-catalog:focus-visible {
+  background: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
+  border-radius: 30px;
+}
+
+.header-navigation-link-catalog:focus-within {
+  background-color: #ff4a78;
+  border-radius: 30px;
+  fill: #fcfcfc;
+  color: #fcfcfc;
+}
+
+.header-navigation-link-catalog:focus-within:hover {
+  opacity: 0.6;
+}
+
+.header-navigation-link-catalog:focus-within:active {
+  opacity: 0.3;
 }
 
 .header-tel-link {
