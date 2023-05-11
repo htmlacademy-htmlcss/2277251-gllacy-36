@@ -743,6 +743,19 @@ img {
   line-height: 20px;
 }
 
+.breadcrumbs-link:hover {
+  color: #fa505b;
+}
+
+.breadcrumbs-link:active {
+  opacity: 0.6;
+}
+
+.breadcrumbs-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
 .catalog-title {
   font-weight: 900;
   font-size: 32px;
