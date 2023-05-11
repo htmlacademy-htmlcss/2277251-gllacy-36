@@ -787,6 +787,19 @@ img {
   line-height: 20px;
 }
 
+.footer-link:hover {
+  color: #fa505b;
+}
+
+.footer-link:active {
+  opacity: 0.6;
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
 .footer-link-heart {
   font-weight: 700;
 }
