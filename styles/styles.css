@@ -358,10 +358,42 @@ img {
 
 /* Хедер */
 
+.main-header {
+  padding-top: 24px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-logo {
+  margin-right: 16px;
+}
+
+.header-navigation-list {
+  display: flex;
+  align-items: center;
+  margin-right: 162px;
+}
+
+.header-navigation-link-catalog {
+  text-decoration: none;
+  color: #2d3440;
+  line-height: 20px;
+  padding: 8px 26px 8px 16px;
+}
+
+.header-right-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .header-navigation-link {
   text-decoration: none;
   color: #2d3440;
   line-height: 20px;
+  padding: 8px 16px;
 }
 
 .header-tel-link {
@@ -369,6 +401,7 @@ img {
   font-weight: 700;
   color: #2d3440;
   line-height: 20px;
+  padding: 6px 0;
 }
 
 /* Слайдер */
