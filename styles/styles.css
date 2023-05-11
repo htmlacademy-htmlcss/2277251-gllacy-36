@@ -796,6 +796,7 @@ img {
   display: flex;
   width: 24px;
   height: 24px;
+  line-height: 20px;
   text-decoration: none;
   color: #2d3440;
   padding: 2px 8px;
