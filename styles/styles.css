@@ -766,7 +766,7 @@ img {
 .search-popover {
   position: absolute;
   top: 40px;
-  left: 0;
+  right: 0;
   width: 356px;
   min-height: 96px;
   background-color: #fcfcfc;
@@ -804,7 +804,7 @@ img {
 .cart-popover {
   position: absolute;
   top: 40px;
-  left: 0;
+  right: 0;
   width: 441px;
   min-height: 382px;
   background-color: #fcfcfc;
@@ -845,7 +845,7 @@ img {
 .login-popover {
   position: absolute;
   top: 40px;
-  left: 0;
+  right: 0;
   width: 420px;
   min-height: 350px;
   background-color: #fcfcfc;
