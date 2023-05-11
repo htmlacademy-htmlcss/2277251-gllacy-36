@@ -166,7 +166,7 @@ img {
 
 .search-button {
   width: 32px;
-  height: 32px;
+  min-height: 32px;
   border-radius: 27px;
   background-color: rgba(252, 252, 252, 0.3);
   fill: #2d3440;
@@ -196,7 +196,7 @@ img {
 
 .login-button {
   width: 88px;
-  height: 32px;
+  min-height: 32px;
   border-radius: 30px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -230,7 +230,7 @@ img {
 
 .cart-button {
   width: 115px;
-  height: 32px;
+  min-height: 32px;
   background-color: rgba(252, 252, 252, 0.3);
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -397,6 +397,8 @@ img {
 }
 
 .header-tel-link {
+  display: block;
+  min-width: 147px;
   text-decoration: none;
   font-weight: 700;
   color: #2d3440;
