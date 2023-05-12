@@ -413,7 +413,9 @@ img {
 .header-navigation-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin-right: 162px;
+  max-width: 425px;
 }
 
 .header-navigation-link-catalog {
@@ -427,7 +429,9 @@ img {
 .header-right-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
+  max-width: 432px;
 }
 
 .header-navigation-link {
@@ -801,6 +805,8 @@ img {
 .socials-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 105px;
   gap: 16px;
 }
 
