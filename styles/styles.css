@@ -793,6 +793,31 @@ img {
 
 /* Футер */
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  max-width: 325px;
+  padding: 48px 0;
+}
+
+.copyright-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .footer-link {
   text-decoration: none;
   color: #2d3440;
@@ -821,6 +846,26 @@ img {
   font-size: 12px;
   line-height: 16px;
   color: #2d3440;
+  margin: 0;
+}
+
+.logo-html-academy {
+  display: flex;
+  align-self: start;
+  fill: #2d3440;
+}
+
+.logo-html-academy:hover {
+  fill: #fa505b;
+}
+
+.logo-html-academy:active {
+  opacity: 0.6;
+}
+
+.logo-html-academy:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
 }
 
 /* Пагинация в каталоге*/
@@ -883,7 +928,7 @@ img {
 
 /* Иконки социальных сетей */
 
-.slider-socials-link {
+.socials-link {
   display: block;
   width: 24px;
   height: 24px;
@@ -891,16 +936,16 @@ img {
   border-radius: 24px;
 }
 
-.slider-socials-link:hover {
+.socials-link:hover {
   background-color: #2d3440;
   outline: 2px solid rgba(252, 252, 252, 0.5);
 }
 
-.slider-socials-link:active {
+.socials-link:active {
   opacity: 0.5;
 }
 
-.slider-socials-link:focus-visible  {
+.socials-link:focus-visible  {
   background-color: #2d3440;
   outline: 2px solid #2d3440;
   outline-offset: inherit;
