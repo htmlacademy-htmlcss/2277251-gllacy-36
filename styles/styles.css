@@ -808,8 +808,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px 24px;
-  max-width: 325px;
+  max-width: 356px;
   padding: 48px 0;
+}
+
+.footer-list-item {
+  min-width: 126px;
 }
 
 .copyright-wrapper {
