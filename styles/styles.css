@@ -467,6 +467,10 @@ img {
   color: #fcfcfc;
 }
 
+.header-navigation-link-catalog:focus-within .header-catalog-image {
+  transform: rotate(180deg);
+}
+
 .header-navigation-link-catalog:focus-within:hover {
   opacity: 0.6;
 }
