@@ -109,19 +109,27 @@
             </button>
             <div class="login-popover login-popover-control">
               <div class="login-popover-content">
-                <h2>Личный кабинет</h2>
+                <h2 class="login-popover-title">Личный кабинет</h2>
                 <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
                   <label>
-                    <input type="email" name="login-email" placeholder="Ваш email" value="email@example.com" required>
+                    <input class="login-popover-input" type="email" name="login-email" placeholder="Ваш email" value="email@example.com" required>
                   </label>
                   <label>
-                    <input type="password" name="login-password" placeholder="Ваш пароль" value="123456" required>
+                    <input class="login-popover-input" type="password" name="login-password" placeholder="Ваш пароль" value="123456" required>
                   </label>
-                  <button class="button additional-button login-popover-button" type="submit">
-                    Войти
-                  </button>
-                  <a class="login-form-recovery-link" href="#">Забыли пароль?</a>
-                  <a class="registration-form-link" href="#">Регистрация</a>
+                  <div class="login-popover-buttons-wrapper">
+                    <button class="button additional-button login-popover-button" type="submit">
+                      Войти
+                    </button>
+                      <ul class="login-form-links-list">
+                        <li class="login-form-links-item">
+                          <a class="login-form-recovery-link" href="#">Забыли пароль?</a>
+                        </li>
+                        <li class="login-form-links-item">
+                          <a class="registration-form-link" href="#">Регистрация</a>
+                        </li>
+                      </ul>
+                  </div>
                 </form>
               </div>
             </div>

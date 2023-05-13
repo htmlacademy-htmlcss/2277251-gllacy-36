@@ -1134,3 +1134,59 @@ img {
 .header-right-item-login:focus-within .login-popover-control {
   display: block;
 }
+
+.login-popover-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+}
+
+.login-popover-input {
+  width: 324px;
+  min-height: 48px;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  color: #2d3440;
+}
+
+.login-popover-input:last-child {
+  margin-bottom: 32px;
+}
+
+.login-popover-buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-form-links-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-recovery-link,
+.registration-form-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  border-bottom: 1px solid #2d3440;
+}
+
+.login-form-recovery-link:hover,
+.registration-form-link:hover {
+  color: #fa505b;
+  border-color: #fa505b;
+}
+
+.login-form-recovery-link:active,
+.registration-form-link:active {
+  opacity: 0.6;
+}
+
+.login-form-recovery-link:focus-visible,
+.registration-form-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
