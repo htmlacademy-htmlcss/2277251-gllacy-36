@@ -978,7 +978,6 @@ img {
   width: 135px;
   min-height: 188px;
   background-color: #fcfcfc;
-  padding: 16px;
   border-radius: 4px;
   z-index: 1;
 }
@@ -993,6 +992,38 @@ img {
 
 .header-navigation-item-catalog:focus-within .catalog-popover-control {
   display: block;
+}
+
+.catalog-popover-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catalog-popover-link {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  padding: 8px 14px;
+}
+
+.catalog-popover-link-novelties {
+  font-weight: 700;
+}
+
+.catalog-popover-link:hover {
+  background-color: #ffcbd8;
+}
+
+.catalog-popover-link:active {
+  background-color: #ff7799;
+}
+
+.catalog-popover-link:focus-visible {
+  outline: none;
+  background: #ff4a78;
+  color: #fcfcfc;
 }
 
 /* Поповер поиска */
