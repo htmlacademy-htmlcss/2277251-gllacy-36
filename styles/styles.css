@@ -619,6 +619,29 @@ img {
 
 /* Блок с описанием магазина Глейси */
 
+.about-us {
+  position: relative;
+  padding: 80px 64px;
+  border-radius: 16px;
+  background-image: url("../images/waffle-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+  border-radius: 16px;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
 .about-us-title {
   font-weight: 900;
   font-size: 32px;
