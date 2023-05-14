@@ -598,7 +598,8 @@ img {
   color: #2d3440;
 }
 
-.goods-title {
+.goods-title-link {
+  text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
