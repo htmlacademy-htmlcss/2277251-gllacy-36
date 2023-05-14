@@ -488,6 +488,8 @@ img {
   color: #2d3440;
   line-height: 20px;
   padding: 6px 0;
+  align-self: center;
+  margin-right: 16px;
 }
 
 .header-tel-link:hover {
@@ -663,7 +665,8 @@ img {
   color: #565c66;
 }
 
-.news-description {
+.news-description-link {
+  text-decoration: none;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
