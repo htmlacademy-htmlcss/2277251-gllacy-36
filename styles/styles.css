@@ -418,11 +418,12 @@ img {
   max-width: 425px;
 }
 
-.header-navigation-link-catalog {
-  text-decoration: none;
+.header-navigation-button-catalog {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   color: #2d3440;
   fill: #2d3440;
-  line-height: 20px;
   padding: 8px 26px 8px 16px;
 }
 
@@ -442,40 +443,40 @@ img {
 }
 
 .header-navigation-link:hover,
-.header-navigation-link-catalog:hover {
+.header-navigation-button-catalog:hover {
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
 
 .header-navigation-link:active,
-.header-navigation-link-catalog:active {
+.header-navigation-button-catalog:active {
   background-color: #fcfcfc;
 }
 
 .header-navigation-link:focus-visible,
-.header-navigation-link-catalog:focus-visible {
+.header-navigation-button-catalog:focus-visible {
   background: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   outline-offset: -1px;
   border-radius: 30px;
 }
 
-.header-navigation-link-catalog:focus-within {
+.header-navigation-button-catalog:focus-within {
   background-color: #ff4a78;
   border-radius: 30px;
   fill: #fcfcfc;
   color: #fcfcfc;
 }
 
-.header-navigation-link-catalog:focus-within .header-catalog-image {
+.header-navigation-button-catalog:focus-within .header-catalog-image {
   transform: rotate(180deg);
 }
 
-.header-navigation-link-catalog:focus-within:hover {
+.header-navigation-button-catalog:focus-within:hover {
   opacity: 0.6;
 }
 
-.header-navigation-link-catalog:focus-within:active {
+.header-navigation-button-catalog:focus-within:active {
   opacity: 0.3;
 }
 
