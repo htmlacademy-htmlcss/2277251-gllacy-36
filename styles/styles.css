@@ -598,6 +598,49 @@ img {
 
 /* Секция баннеров с подарками */
 
+.gifts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gift-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-width: 570px;
+  background-color: #ff7799;
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.raspberry-gift::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 2px;
+  width: 219px;
+  height: 268px;
+  background-image: url("../images/gift-raspberries.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(0.91);
+}
+
+.marshmallow-gift::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  width: 219px;
+  height: 233px;
+  background-image: url("../images/gift-marshmallow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.043);
+}
+
 .banners-title {
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -608,6 +651,8 @@ img {
 }
 
 .gift-title {
+  max-width: 317px;
+  margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -616,7 +661,13 @@ img {
 }
 
 .gift-description {
+  margin: 0;
+  max-width: 304px;
   color: #2d3440;
+}
+
+.gift-button {
+  max-width: 176px;
 }
 
 /* Карточки товаров */
