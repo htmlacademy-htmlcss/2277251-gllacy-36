@@ -396,6 +396,20 @@ img {
   fill: #2d3440;
 }
 
+.slider-prev {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  background-color: transparent;
+}
+
+.slider-next {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  background-color: transparent;
+}
+
 /* Хедер */
 
 .page-header {
@@ -514,6 +528,7 @@ img {
 }
 
 .slider-title {
+  max-width: 470px;
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 36px;
@@ -522,11 +537,26 @@ img {
 }
 
 .slider-description {
+  max-width: 429px;
+  margin-bottom: 48px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #2d3440;
+}
+
+.slider-item-current {
+  width: 888px;
+  display: grid;
+  grid-template-columns: 500px 357px;
+  gap: 30px;
+}
+
+.slider-picture-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 /* Пагинация в слайдере */
