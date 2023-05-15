@@ -651,6 +651,8 @@ img {
 .goods-image {
   display: block;
   margin: 0 auto;
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
 }
 
 .popular-goods-title {
