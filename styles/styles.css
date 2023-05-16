@@ -756,6 +756,7 @@ img {
   background-position: center;
   background-size: cover;
   z-index: 1;
+  margin-bottom: 80px;
 }
 
 .about-us::before {
@@ -784,7 +785,23 @@ img {
 
 /* Блок с новостями */
 
+.news-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.news-serving {
+  min-width: 570px;
+  padding: 33px 235px 70px 32px;
+  border-radius: 16px;
+  background-image: url("../images/news-serving-background.png");
+  background-repeat: no-repeat;
+  background-position: top -107px right -77px;
+  background-size: 115%;
+}
+
 .news-title {
+  margin: 0 0 12px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -801,11 +818,47 @@ img {
 
 /* Форма подписки в блоке с новостями */
 
+.newsletter {
+  position: relative;
+  padding: 32px;
+  background-image: url("../images/newsletter-mail-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.newsletter::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  border-radius: 16px;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
 .newsletter-description {
+  margin: 0 0 44px 0;
   color: #565c66;
 }
 
+.newsletter-form {
+  display: flex;
+  width: 506px;
+  min-height: 42px;
+  gap: 18px;
+}
+
 .newsletter-field {
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 332px;
+  height: 100%;
+  padding: 14px 16px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
