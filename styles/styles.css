@@ -605,13 +605,13 @@ img {
 
 /* Секция баннеров с подарками */
 
-.gifts-container {
+.gifts-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.gift-wrapper {
+.gift-item {
   position: relative;
   display: flex;
   flex-direction: column;
