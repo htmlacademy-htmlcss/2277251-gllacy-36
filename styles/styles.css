@@ -522,7 +522,7 @@ img {
 }
 
 .header-tel-link:focus-visible {
-  background: rgba(252, 252, 252, 0.5);
+  background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   outline-offset: -1px;
   border-radius: 30px;
@@ -811,12 +811,28 @@ img {
 }
 
 .news-description-link {
+  display: block;
   text-decoration: none;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: #2d3440;
 }
+
+.news-description-link:hover {
+  color: #fa505b;
+}
+
+.news-description-link:active {
+  opacity: 0.6;
+}
+
+.news-description-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
+
 
 /* Форма подписки в блоке с новостями */
 
