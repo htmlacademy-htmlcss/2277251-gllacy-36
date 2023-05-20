@@ -891,6 +891,7 @@ img {
   padding: 64px 64px 64px 100px;
   border-radius: 16px;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .delivery::before {
@@ -994,6 +995,36 @@ img {
 
 /* Блок "Обратная связь" */
 
+.feedback {
+  position: relative;
+  padding: 64px;
+  border-radius: 16px;
+}
+
+.feedback::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../images/feedback-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+  box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
+  border-radius: 8px;
+  width: 343px;
+  padding: 40px;
+}
+
 .contacts-description {
   color: #565c66;
 }
@@ -1003,6 +1034,7 @@ img {
 }
 
 .contacts-address-text {
+  margin: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1032,6 +1064,7 @@ img {
 }
 
 .contacts-phone-text {
+  margin-bottom: 30px;
   font-size: 14px;
   line-height: 20px;
   color: #565c66;
