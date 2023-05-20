@@ -1438,6 +1438,29 @@ img {
   padding: 3px;
 }
 
+.cart-popover-empty {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 288px;
+  min-height: 156px;
+  padding: 48px 0;
+}
+
+.cart-popover-empty-title {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+  text-align: center;
+  }
+
+  .cart-popover-empty-control {
+    display: none;
+  }
+
 /* Поповер входа в личный кабинет */
 
 .header-right-item-login {
