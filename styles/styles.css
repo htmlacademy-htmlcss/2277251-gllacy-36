@@ -1516,11 +1516,6 @@ img {
   margin-bottom: 32px;
 }
 
-.login-popover-buttons-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .login-form-links-list {
   list-style-type: none;
   display: flex;
@@ -1551,4 +1546,9 @@ img {
 .registration-form-link:focus-visible {
   outline: 2px solid #fa505b;
   outline-offset: 2px;
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
 }
