@@ -183,9 +183,26 @@ img {
 /* Кнопка поиска */
 
 .search-button {
+  position: relative;
   width: 32px;
   min-height: 32px;
   border-radius: 27px;
+  background-image: url("../images/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-button::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  -webkit-mask: url("../images/search-icon.svg");
+  mask: url("../images/search-icon.svg");
 }
 
 .search-button:hover {
@@ -194,7 +211,8 @@ img {
 
 .search-button:active {
   background-color: rgba(252, 252, 252, 0.5);
-  border: 2px solid #2d3440;
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
 }
 
 .search-button:focus-visible {
@@ -226,12 +244,37 @@ img {
   color: #fcfcfc;
 }
 
+.search-button:active.search-button::before,
+.search-button:focus-visible.search-button::before,
+.search-button:focus-within.search-button::before,
+.header-right-item-search:focus-within .search-button:not(:focus).search-button::before {
+  display: block;
+}
+
 /* Кнопка входа */
 
 .login-button {
+  position: relative;
   width: 88px;
   min-height: 32px;
   border-radius: 30px;
+  background-image: url("../images/login-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 18px 7px;
+  padding: 4px 16px 6px 38px;
+}
+
+.login-button::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 18px;
+  width: 14px;
+  height: 15px;
+  background-color: #ffffff;
+  -webkit-mask: url("../images/login-icon.svg");
+  mask: url("../images/login-icon.svg");
 }
 
 .login-button:hover {
@@ -240,7 +283,8 @@ img {
 
 .login-button:active {
   background-color: rgba(252, 252, 252, 0.5);
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
+  outline-offset: -1px;
 }
 
 .login-button:focus-visible {
@@ -277,12 +321,37 @@ img {
   margin-left: auto;
 }
 
+.login-button:active.login-button::before,
+.login-button:focus-visible.login-button::before,
+.login-button:focus-within.login-button::before,
+.header-right-item-login:focus-within .login-button:not(:focus).login-button::before {
+  display: block;
+}
+
 /* Кнопка корзины */
 
 .cart-button {
+  position: relative;
   min-width: 115px;
   min-height: 32px;
   border-radius: 30px;
+  background-image: url("../images/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 16px 8px;
+  padding: 4px 16px 6px 38px;
+}
+
+.cart-button::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 15px;
+  height: 14px;
+  background-color: #ffffff;
+  -webkit-mask: url("../images/cart-icon.svg");
+  mask: url("../images/cart-icon.svg");
 }
 
 .cart-button:hover {
@@ -291,7 +360,8 @@ img {
 
 .cart-button:active {
   background-color: rgba(252, 252, 252, 0.5);
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
+  outline-offset: -1px;
 }
 
 .cart-button:focus-visible {
@@ -321,6 +391,13 @@ img {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
+}
+
+.cart-button:active.cart-button::before,
+.cart-button:focus-visible.cart-button::before,
+.cart-button:focus-within.cart-button::before,
+.header-right-item-cart:focus-within .cart-button:not(:focus).cart-button::before {
+  display: block;
 }
 
 /* Кнопка "Добавить в корзину" */
@@ -460,12 +537,19 @@ img {
 }
 
 .header-navigation-button-catalog {
+  position: relative;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #2d3440;
   fill: #2d3440;
-  padding: 8px 26px 8px 16px;
+  padding: 8px 40px 8px 16px;
+}
+
+.header-catalog-image {
+  position: absolute;
+  top: 14px;
+  right: 18px;
 }
 
 .header-right-list {
@@ -1409,6 +1493,7 @@ img {
 /* Поповер поиска */
 
 .header-right-item-search {
+  height: 32px;
   position: relative;
 }
 
