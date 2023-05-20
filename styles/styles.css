@@ -1456,6 +1456,14 @@ img {
   padding: 48px 0;
 }
 
+.cart-empty:focus-within .cart-popover-empty-control {
+  display: block;
+}
+
+.cart-empty:focus-within .cart-popover-control {
+  display: none;
+}
+
 .cart-popover-empty-title {
   margin: 0;
   font-family: "Inter", sans-serif;
