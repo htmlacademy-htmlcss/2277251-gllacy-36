@@ -955,27 +955,8 @@ img {
   margin-bottom: 20px;
 }
 
-.delivery-form-label-date {
-  position: relative;
-}
-
-.label-date-image {
-  position: absolute;
-  top: 4px;
-  left: 44px;
-  cursor: pointer;
-}
-
 .delivery-form-label-address {
-  position: relative;
   margin-bottom: 32px;
-}
-
-.label-address-image {
-  position: absolute;
-  top: 4px;
-  left: 54px;
-  cursor: pointer;
 }
 
 .address-input {
