@@ -1287,6 +1287,14 @@ img {
   outline-offset: inherit;
 }
 
+/* Общие свойства для поповеров */
+
+.popover {
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  z-index: 1;
+}
+
 /* Поповер каталога */
 
 .header-navigation-item-catalog {
@@ -1299,9 +1307,6 @@ img {
   left: 0;
   width: 135px;
   min-height: 188px;
-  background-color: #fcfcfc;
-  border-radius: 4px;
-  z-index: 1;
 }
 
 .catalog-popover-content {
@@ -1360,10 +1365,7 @@ img {
   right: 0;
   width: 356px;
   min-height: 96px;
-  background-color: #fcfcfc;
   padding: 24px 16px;
-  border-radius: 4px;
-  z-index: 1;
 }
 
 .search-popover-content {
@@ -1398,9 +1400,7 @@ img {
   right: 0;
   width: 441px;
   min-height: 382px;
-  background-color: #fcfcfc;
   padding: 48px;
-  border-radius: 4px;
 }
 
 .cart-popover-content {
@@ -1439,10 +1439,7 @@ img {
   right: 0;
   width: 420px;
   min-height: 350px;
-  background-color: #fcfcfc;
   padding: 48px;
-  border-radius: 4px;
-  z-index: 1;
 }
 
 .login-popover-content {
