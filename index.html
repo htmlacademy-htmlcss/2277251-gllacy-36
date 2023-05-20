@@ -74,8 +74,7 @@
         <a class="header-tel-link" href="tel:+78005558628">+7 800 555-86-28</a>
         <ul class="header-right-list reset-list">
           <li class="header-right-item-search">
-            <button class="button search-button" type="submit">
-              <span class="visually-hidden">Поиск по сайту.</span>
+            <button class="button search-button" type="submit" aria-label="Поиск по сайту.">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                 <path fill-rule="evenodd" d="M1.6633 6.188c0-2.5774 2.0893-4.6667 4.6667-4.6667
                 2.5773 0 4.6666 2.0893 4.6666 4.6666 0 1.2573-.4972 2.3985-1.3057 3.2376a.6735.6735 0 0
@@ -87,10 +86,8 @@
             <div class="search-popover search-popover-control">
               <div class="search-popover-content">
                 <form action="https://echo.htmlacademy.ru/" method="get">
-                  <label>
-                    <span class="visually-hidden">Поиск по сайту.</span>
-                    <input class="search-popover-input" type="search" name="search" placeholder="Поиск по сайту" required>
-                  </label>
+                  <input class="search-popover-input" type="search" name="search"
+                   placeholder="Поиск по сайту" aria-label="Поиск по сайту." required>
                 </form>
               </div>
             </div>
@@ -111,12 +108,10 @@
               <div class="login-popover-content">
                 <h2 class="login-popover-title">Личный кабинет</h2>
                 <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
-                  <label>
-                    <input class="login-popover-input" type="email" name="login-email" placeholder="Ваш email" value="email@example.com" required>
-                  </label>
-                  <label>
-                    <input class="login-popover-input" type="password" name="login-password" placeholder="Ваш пароль" value="123456" required>
-                  </label>
+                  <input class="login-popover-input" type="email" name="login-email"
+                   aria-label="Ваш email." placeholder="Ваш email" value="email@example.com" required>
+                  <input class="login-popover-input" type="password" name="login-password"
+                  aria-label="Ваш пароль." placeholder="Ваш пароль" value="123456" required>
                   <div class="login-popover-buttons-wrapper">
                     <button class="button additional-button login-popover-button" type="submit">
                       Войти
@@ -158,17 +153,14 @@
                     <h3 class="cart-item-title">Малинка</h3>
                     <span>1 кг х 310 ₽</span>
                     <span>310 ₽</span>
-                    <button class="popover-item-close-button" type="button">
-                      <span class="visually-hidden">Удалить товар из корзины</span>
-                    </button>
+                    <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины."></button>
                   </li>
                   <li class="cart-item">
                     <img src="images/bubble-gum-ice-cream-card.png" width="46" height="46" alt="Шарик бабл-гам мороженого.">
                     <h3 class="cart-item-title">Бабл-гам</h3>
                     <span>1,5 кг х 320 ₽</span>
                     <span>480 ₽</span>
-                    <button class="popover-item-close-button" type="button">
-                      <span class="visually-hidden">Удалить товар из корзины</span>
+                    <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины.">
                     </button>
                   </li>
                 </ul>
@@ -203,15 +195,13 @@
               </div>
               <div class="slider-picture-wrapper">
                 <img src="images/strawberry-ice-cream.png" width="328" height="507" alt="Пломбир с клубничным джемом.">
-                <button class="slider-button slider-prev" type="button">
-                  <span class="visually-hidden">Показать предыдущий товар</span>
+                <button class="slider-button slider-prev" type="button" aria-label="Показать предыдущий товар.">
                   <svg class="slider-arrow-image" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12">
                     <path fill-rule="evenodd" d="M5.7104 11.1352a.665.665 0 0 0 .9405-.9404L2.4496
                      5.9935 6.651 1.7922a.665.665 0 1 0-.9404-.9405L1.0418 5.5205l-.0029.0028a.665.665 0 0 0 0
                       .9404l4.6715 4.6715Z" clip-rule="evenodd"/></svg>
                 </button>
-                <button class="slider-button slider-next" type="button">
-                  <span class="visually-hidden">Показать следуюший товар</span>
+                <button class="slider-button slider-next" type="button" aria-label="Показать следующий товар.">
                   <svg class="slider-arrow-image" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12">
                     <path fill-rule="evenodd" d="M1.2896.8648a.665.665 0 1 0-.9405.9404l4.2013
                      4.2013L.349 10.2078a.665.665 0 0 0 .9404.9405l4.6687-4.6688.0029-.0028a.665.665 0 0 0
@@ -254,25 +244,18 @@
           <div class="slider-footer">
             <ul class="slider-pagination-list reset-list">
               <li class="slider-pagination-item slider-pagination-item-current">
-                <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                  <span class="visually-hidden">Первый товар слайдера</span>
-                </button>
+                <button class="slider-pagination-button slider-pagination-button-current" type="button" aria-label="Первый товар слайдера."></button>
               </li>
               <li class="slider-pagination-item">
-                <button class="slider-pagination-button" type="button">
-                  <span class="visually-hidden">Второй товар слайдера</span>
-                </button>
+                <button class="slider-pagination-button" type="button" aria-label="Второй товар слайдера."></button>
               </li>
               <li class="slider-pagination-item">
-                <button class="slider-pagination-button" type="button">
-                  <span class="visually-hidden">Третий товар слайдера</span>
-                </button>
+                <button class="slider-pagination-button" type="button" aria-label="Третий товар слайдера."></button>
               </li>
             </ul>
             <ul class="socials-list reset-list">
               <li class="socials-item">
-                <a class="socials-link" href="https://t.me/htmlacademy">
-                  <span class="visually-hidden">Мы в Телеграме.</span>
+                <a class="socials-link" href="https://t.me/htmlacademy" aria-label="Мы в Телеграме.">
                   <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                     viewBox="0 0 24 24">
                     <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12c0 6.627-5.373 12-12 12S0 18.627
@@ -292,8 +275,7 @@
                 </a>
               </li>
               <li class="socials-item">
-                <a class="socials-link" href="https://www.youtube.com/user/htmlacademyru">
-                  <span class="visually-hidden">Мы в Вконтакте.</span>
+                <a class="socials-link" href="https://www.youtube.com/user/htmlacademyru" aria-label="Мы в Вконтакте.">
                   <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                     viewBox="0 0 24 24">
                     <path fill="#FCFCFC" fill-rule="evenodd"
@@ -314,8 +296,7 @@
                 </a>
               </li>
               <li class="socials-item">
-                <a class="socials-link" href="https://twitter.com/htmlacademy_ru">
-                  <span class="visually-hidden">Мы в Ютубе.</span>
+                <a class="socials-link" href="https://twitter.com/htmlacademy_ru" aria-label="Мы в Ютубе.">
                   <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                     viewBox="0 0 24 24">
                     <path fill="#FCFCFC" d="m14.0037 11.7913-2.8074-1.31c-.245-.1138-.4463.0137-.4463.2849v2.4676c0
@@ -364,8 +345,7 @@
             </a>
             <p class="goods-description">Сливочное мороженое с малиновым джемом</p>
             <span class="goods-price">310 ₽/кг</span>
-            <button class="button-add-to-cart" type="button">
-              <span class="visually-hidden">Добавить в корзину</span>
+            <button class="button-add-to-cart" type="button" aria-label="Добавить в корзину.">
               <svg class="add-to-cart-image" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
                 viewBox="0 0 15 14">
                 <path fill-rule="evenodd" d="M1.1667.25a.6667.6667 0 1 0 0 1.3333h1.7712l.4675 2.3354a.664.664 0 0 0
@@ -389,8 +369,7 @@
             </a>
             <p class="goods-description">Фисташковый пломбир с кусочками шоколада</p>
             <span class="goods-price">340 ₽/кг</span>
-            <button class="button-add-to-cart" type="button">
-              <span class="visually-hidden">Добавить в корзину</span>
+            <button class="button-add-to-cart" type="button" aria-label="Добавить в корзину.">
               <svg class="add-to-cart-image" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
                 viewBox="0 0 15 14">
                 <path fill-rule="evenodd" d="M1.1667.25a.6667.6667 0 1 0 0 1.3333h1.7712l.4675 2.3354a.664.664 0 0 0
@@ -415,8 +394,7 @@
             <p class="goods-description">Крем-брюле
               с черничным джемом</p>
             <span class="goods-price">330 ₽/кг</span>
-            <button class="button-add-to-cart" type="button">
-              <span class="visually-hidden">Добавить в корзину</span>
+            <button class="button-add-to-cart" type="button" aria-label="Добавить в корзину.">
               <svg class="add-to-cart-image" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
                 viewBox="0 0 15 14">
                 <path fill-rule="evenodd" d="M1.1667.25a.6667.6667 0 1 0 0 1.3333h1.7712l.4675 2.3354a.664.664 0 0 0
@@ -441,8 +419,7 @@
             <p class="goods-description">Ванильный пломбир
               со сладкой посыпкой</p>
             <span class="goods-price">320 ₽/кг</span>
-            <button class="button-add-to-cart" type="button">
-              <span class="visually-hidden">Добавить в корзину</span>
+            <button class="button-add-to-cart" type="button" aria-label="Добавить в корзину.">
               <svg class="add-to-cart-image" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
                 viewBox="0 0 15 14">
                 <path fill-rule="evenodd" d="M1.1667.25a.6667.6667 0 1 0 0 1.3333h1.7712l.4675 2.3354a.664.664 0 0 0
@@ -503,11 +480,8 @@
             в&nbsp;курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
             Честно =)</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="newsletter-field-label">
-              <span class="visually-hidden">Ваш email.</span>
-              <input class="newsletter-field" type="email" placeholder="email@example.com" name="newsletter-email"
-                required>
-            </label>
+            <input class="newsletter-field" type="email" placeholder="email@example.com" name="newsletter-email"
+              aria-label="Ваш email." required>
             <button class="button additional-button send-button" type="submit">
               Отправить
             </button>
@@ -569,8 +543,7 @@
       <div class="footer-wrapper">
         <ul class="socials-list reset-list">
           <li class="socials-item">
-            <a class="socials-link" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Мы в Телеграме.</span>
+            <a class="socials-link" href="https://t.me/htmlacademy" aria-label="Мы в Телеграме.">
               <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                 viewBox="0 0 24 24">
                 <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12c0 6.627-5.373 12-12 12S0 18.627
@@ -590,8 +563,7 @@
             </a>
           </li>
           <li class="socials-item">
-            <a class="socials-link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Мы в Вконтакте.</span>
+            <a class="socials-link" href="https://www.youtube.com/user/htmlacademyru" aria-label="Мы в Вконтакте.">
               <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                 viewBox="0 0 24 24">
                 <path fill="#FCFCFC" fill-rule="evenodd"
@@ -612,8 +584,7 @@
             </a>
           </li>
           <li class="socials-item">
-            <a class="socials-link" href="https://twitter.com/htmlacademy_ru">
-              <span class="visually-hidden">Мы в Ютубе.</span>
+            <a class="socials-link" href="https://twitter.com/htmlacademy_ru" aria-label="Мы в Ютубе.">
               <svg class="socials-image" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                 viewBox="0 0 24 24">
                 <path fill="#FCFCFC" d="m14.0037 11.7913-2.8074-1.31c-.245-.1138-.4463.0137-.4463.2849v2.4676c0
@@ -648,8 +619,7 @@
           </li>
         </ul>
         <div class="copyright-wrapper">
-          <a class="logo-html-academy" href="https://htmlacademy.ru/">
-            <span class="visually-hidden">Логотип Html Академии</span>
+          <a class="logo-html-academy" href="https://htmlacademy.ru/" aria-label="Логотип Html Академии.">
             <svg xmlns="http://www.w3.org/2000/svg" width="93" height="27" viewBox="0 0 93 27">
               <g clip-path="url(#a)">
                 <path d="M0 10.4163v2.0832h1.9877v-2.0832H0ZM9.4185 3.6631c-1.2617 0-2.2815.5729-2.921
