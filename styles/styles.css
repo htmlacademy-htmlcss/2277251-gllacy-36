@@ -90,6 +90,17 @@ img {
   border-radius: 26px;
 }
 
+.user-button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(252, 252, 252, 0.3);
+  fill: #2d3440;
+}
+
 /* Кнопки "Основные" */
 
 .main-button {
@@ -175,8 +186,6 @@ img {
   width: 32px;
   min-height: 32px;
   border-radius: 27px;
-  background-color: rgba(252, 252, 252, 0.3);
-  fill: #2d3440;
 }
 
 .search-button:hover {
@@ -217,12 +226,6 @@ img {
   width: 88px;
   min-height: 32px;
   border-radius: 30px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  background-color: rgba(252, 252, 252, 0.3);
-  fill: #2d3440;
 }
 
 .login-button:hover {
@@ -262,12 +265,6 @@ img {
 .cart-button {
   width: 115px;
   min-height: 32px;
-  background-color: rgba(252, 252, 252, 0.3);
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  fill: #2d3440;
   border-radius: 30px;
 }
 
