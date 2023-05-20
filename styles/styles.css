@@ -272,10 +272,15 @@ img {
   color: #fcfcfc;
 }
 
+.user-interface-wrapper {
+  display: flex;
+  margin-left: auto;
+}
+
 /* Кнопка корзины */
 
 .cart-button {
-  width: 115px;
+  min-width: 115px;
   min-height: 32px;
   border-radius: 30px;
 }
@@ -435,6 +440,7 @@ img {
 /* Хедер */
 
 .page-header {
+  display: flex;
   padding-top: 24px;
 }
 
@@ -450,7 +456,6 @@ img {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-right: 162px;
   max-width: 425px;
 }
 
@@ -1437,6 +1442,18 @@ img {
 }
 
 /* Поповер корзины */
+
+.without-goods {
+  display: none;
+}
+
+.cart-empty .with-goods {
+  display: none;
+}
+
+.cart-empty .without-goods {
+  display: block;
+}
 
 .header-right-item-cart {
   position: relative;
