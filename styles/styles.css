@@ -932,7 +932,16 @@ img {
 
 .delivery-form {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.date-input {
+  width: 117px;
+}
+
+.phone-input {
+  width: 287px;
 }
 
 .delivery-form-text {
@@ -961,7 +970,7 @@ img {
 }
 
 .address-input {
-  max-width: 420px;
+  width: 420px;
 }
 
 .delivery-form-label {
