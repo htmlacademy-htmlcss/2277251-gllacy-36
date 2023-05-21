@@ -403,19 +403,36 @@ img {
 /* Кнопка "Добавить в корзину" */
 
 .button-add-to-cart {
+  position: relative;
   width: 32px;
   height: 32px;
   border: none;
   background-color: #ff2f64;
   border-radius: 26px;
   cursor: pointer;
-  fill: #fcfcfc;
+  background-image: url("../images/add-to-cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 8px 9px;
+  display: inline-flex;
+}
+
+.button-add-to-cart::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  width: 15px;
+  height: 14px;
+  background-color: #2d3440;
+  -webkit-mask: url("../images/add-to-cart-icon.svg");
+  mask: url("../images/add-to-cart-icon.svg");
 }
 
 .button-add-to-cart:hover {
-  border: 2px solid #ff2f64;
+  outline: 2px solid #ff2f64;
+  outline-offset: -2px;
   background-color: #fcfcfc;
-  fill: #000000;
 }
 
 .button-add-to-cart:active {
@@ -423,15 +440,20 @@ img {
 }
 
 .button-add-to-cart:focus-visible {
-  outline: none;
-  border: 2px solid #2d3440;
+  outline: 2px solid #2d3440;
+  outline-offset: -2px;
 }
 
 .button-add-to-cart:disabled {
   background-color: #b9b9b9;
-  fill: #565c66;
   border: none;
   cursor: not-allowed;
+}
+
+.button-add-to-cart:hover.button-add-to-cart::before,
+.button-add-to-cart:active.button-add-to-cart::before,
+.button-add-to-cart:disabled.button-add-to-cart::before {
+  display: block;
 }
 
 /* Кнопка "Применить" в фильтре */
