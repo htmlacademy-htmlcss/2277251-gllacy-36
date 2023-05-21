@@ -1215,12 +1215,39 @@ img {
 
 /* Хлебные крошки на внутренней странице */
 
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs-item {
+  position: relative;
+  padding-right: 28px;
+}
+
+.breadcrumbs-item:not(:last-child):after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 6px;
+  top: 7px;
+  right: 10px;
+  background-image: url("../images/breadcrumbs-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5px;
+}
+
 .breadcrumbs-link {
   text-decoration: none;
   color: #2d3440;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
+}
+
+.breadcrumbs-link-current {
+  border-bottom: 1px solid #2d3440;
 }
 
 .breadcrumbs-link:hover {
