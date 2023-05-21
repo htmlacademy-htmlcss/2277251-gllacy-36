@@ -529,6 +529,19 @@ img {
   margin-right: 16px;
 }
 
+.header-logo:hover {
+  opacity: 0.7;
+}
+
+.header-logo:active {
+  opacity: 0.3;
+}
+
+.header-logo:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
 .header-navigation-list {
   display: flex;
   align-items: center;
