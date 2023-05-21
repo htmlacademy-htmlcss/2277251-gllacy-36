@@ -1308,6 +1308,15 @@ img {
   justify-content: center;
 }
 
+.footer-list-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  cursor: default;
+}
+
 .footer-link {
   text-decoration: none;
   color: #2d3440;
