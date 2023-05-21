@@ -1339,6 +1339,26 @@ img {
   margin: 0;
 }
 
+.copyright-link {
+  text-decoration: none;
+  color: #2d3440;
+  border-bottom: 1px solid #947281;
+}
+
+.copyright-link:hover {
+  color: #fa505b;
+  border-color: #fa505b;
+}
+
+.copyright-link:active {
+  opacity: 0.5;
+}
+
+.copyright-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
 .logo-html-academy {
   display: flex;
   align-self: start;
