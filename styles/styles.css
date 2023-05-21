@@ -695,6 +695,16 @@ img {
 
 /* Пагинация в слайдере */
 
+.slider-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-pagination-list {
+  display: flex;
+  gap: 8px;
+}
+
 .slider-pagination-button {
   width: 12px;
   height: 12px;
