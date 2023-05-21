@@ -903,6 +903,7 @@ img {
 }
 
 .about-us-title {
+  margin: 0 0 55px 0;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
@@ -910,7 +911,16 @@ img {
   color: #2d3440;
 }
 
+.about-us-description-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  justify-content: space-between;
+}
+
 .about-us-description-item {
+  max-width: 505px;
+  padding-left: 64px;
   color: #565c66;
 }
 
