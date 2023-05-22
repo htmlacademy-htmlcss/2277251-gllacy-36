@@ -1596,6 +1596,24 @@ img {
   border-radius: 24px;
 }
 
+.telegram-icon {
+  background-image: url("../images/telegram-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vkontakte-icon {
+  background-image: url("../images/vk-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.youtube-icon {
+  background-image: url("../images/youtube-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .socials-link:hover {
   background-color: #2d3440;
   outline: 2px solid rgba(252, 252, 252, 0.5);
