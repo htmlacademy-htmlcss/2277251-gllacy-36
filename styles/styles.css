@@ -184,6 +184,7 @@ img {
 
 .search-button {
   position: relative;
+  display: block;
   width: 32px;
   min-height: 32px;
   border-radius: 27px;
