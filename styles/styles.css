@@ -494,8 +494,8 @@ img {
 /* Кнопки переключатели в слайдере */
 
 .slider-button {
-  width: 38px;
-  height: 38px;
+  width: 35px;
+  height: 35px;
   background-color: rgba(252, 252, 252, 0.3);
   fill: #fcfcfc;
   outline: 2px solid #fcfcfc;
@@ -524,16 +524,16 @@ img {
 
 .slider-prev {
   position: absolute;
-  top: 250px;
-  left: 0;
-  background-color: transparent;
+  top: 243px;
+  left: -1px;
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .slider-next {
   position: absolute;
-  top: 250px;
-  right: 0;
-  background-color: transparent;
+  top: 243px;
+  right: -3px;
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 /* Хедер */
@@ -679,6 +679,10 @@ img {
 
 /* Слайдер */
 
+.slider {
+  padding-top: 36px;
+}
+
 .slider-small-image {
   opacity: 0.4;
 }
@@ -713,6 +717,18 @@ img {
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+.slider-picture-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 328px;
+  height: 312px;
+  left: calc(50% - 328px/2);
+  top: calc(50% - 312px/2);
+  background-color: #ffc8d8;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 /* Пагинация в слайдере */
