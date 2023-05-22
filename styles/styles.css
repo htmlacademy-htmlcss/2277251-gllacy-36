@@ -239,7 +239,7 @@ img {
   opacity: 0.3
 }
 
-.user-interface-item-search:focus-within .search-button:not(:focus) {
+.search-button-wrapper:focus-within .search-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -248,7 +248,7 @@ img {
 .search-button:active.search-button::before,
 .search-button:focus-visible.search-button::before,
 .search-button:focus-within.search-button::before,
-.user-interface-item-search:focus-within .search-button:not(:focus).search-button::before {
+.search-button-wrapper:focus-within .search-button:not(:focus).search-button::before {
   display: block;
 }
 
@@ -1720,7 +1720,7 @@ img {
 
 /* Поповер поиска */
 
-.user-interface-item-search {
+.search-button-wrapper {
   height: 32px;
   position: relative;
 }
@@ -1750,7 +1750,7 @@ img {
   display: none;
 }
 
-.user-interface-item-search:focus-within .search-popover-control {
+.search-button-wrapper:focus-within .search-popover-control {
   display: block;
 }
 
