@@ -91,70 +91,74 @@
                 </div>
               </div>
             </li>
-            <li class="user-interface-item-login">
-              <button class="user-button login-button" type="button">
-                Вход
-              </button>
-              <div class="popover login-popover login-popover-control">
-                <div class="login-popover-content">
-                  <h2 class="login-popover-title">Личный кабинет</h2>
-                  <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <input class="login-popover-input" type="email" name="login-email"
-                     aria-label="Ваш email." placeholder="Ваш email" value="email@example.com" required>
-                    <input class="login-popover-input" type="password" name="login-password"
-                    aria-label="Ваш пароль." placeholder="Ваш пароль" value="123456" required>
-                    <button class="button additional-button login-popover-button" type="submit">
-                      Войти
-                    </button>
-                      <ul class="login-form-links-list">
-                        <li class="login-form-links-item">
-                          <a class="login-form-recovery-link" href="#">Забыли пароль?</a>
-                        </li>
-                        <li class="login-form-links-item">
-                          <a class="registration-form-link" href="#">Регистрация</a>
-                        </li>
-                      </ul>
-                  </form>
+            <li class="user-interface-item">
+              <div class="login-button-wrapper">
+                <button class="user-button login-button" type="button">
+                  Вход
+                </button>
+                <div class="popover login-popover login-popover-control">
+                  <div class="login-popover-content">
+                    <h2 class="login-popover-title">Личный кабинет</h2>
+                    <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
+                      <input class="login-popover-input" type="email" name="login-email"
+                       aria-label="Ваш email." placeholder="Ваш email" value="email@example.com" required>
+                      <input class="login-popover-input" type="password" name="login-password"
+                      aria-label="Ваш пароль." placeholder="Ваш пароль" value="123456" required>
+                      <button class="button additional-button login-popover-button" type="submit">
+                        Войти
+                      </button>
+                        <ul class="login-form-links-list">
+                          <li class="login-form-links-item">
+                            <a class="login-form-recovery-link" href="#">Забыли пароль?</a>
+                          </li>
+                          <li class="login-form-links-item">
+                            <a class="registration-form-link" href="#">Регистрация</a>
+                          </li>
+                        </ul>
+                    </form>
+                  </div>
                 </div>
               </div>
             </li>
             <!-- Для показа пустой корзины добавить для li ниже дополнительный класс cart-empty -->
-            <li class="user-interface-item-cart">
-              <button class="user-button cart-button" type="button">
-                <span class="with-goods">2 товара</span>
-                <span class="without-goods">Нет товаров</span>
-              </button>
-              <div class="popover cart-popover cart-popover-control">
-                <div class="cart-popover-content">
-                  <h2 class="cart-popover-title">Корзина</h2>
-                  <ul class="cart-items-list">
-                    <li class="cart-item">
-                      <img src="images/raspberry-ice-cream-card.png" width="46" height="46" alt="Шарик малинового мороженого.">
-                      <h3 class="cart-item-title">Малинка</h3>
-                      <span>1 кг х 310 ₽</span>
-                      <span>310 ₽</span>
-                      <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины."></button>
-                    </li>
-                    <li class="cart-item">
-                      <img src="images/bubble-gum-ice-cream-card.png" width="46" height="46" alt="Шарик бабл-гам мороженого.">
-                      <h3 class="cart-item-title">Бабл-гам</h3>
-                      <span>1,5 кг х 320 ₽</span>
-                      <span>480 ₽</span>
-                      <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины.">
+            <li class="user-interface-item">
+              <div class="cart-button-wrapper">
+                <button class="user-button cart-button" type="button">
+                  <span class="with-goods">2 товара</span>
+                  <span class="without-goods">Нет товаров</span>
+                </button>
+                <div class="popover cart-popover cart-popover-control">
+                  <div class="cart-popover-content">
+                    <h2 class="cart-popover-title">Корзина</h2>
+                    <ul class="cart-items-list">
+                      <li class="cart-item">
+                        <img src="images/raspberry-ice-cream-card.png" width="46" height="46" alt="Шарик малинового мороженого.">
+                        <h3 class="cart-item-title">Малинка</h3>
+                        <span>1 кг х 310 ₽</span>
+                        <span>310 ₽</span>
+                        <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины."></button>
+                      </li>
+                      <li class="cart-item">
+                        <img src="images/bubble-gum-ice-cream-card.png" width="46" height="46" alt="Шарик бабл-гам мороженого.">
+                        <h3 class="cart-item-title">Бабл-гам</h3>
+                        <span>1,5 кг х 320 ₽</span>
+                        <span>480 ₽</span>
+                        <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины.">
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="final-order-wrapper">
+                      <button class="button additional-button set-an-order-button" type="submit">
+                        Оформить заказ
                       </button>
-                    </li>
-                  </ul>
-                  <div class="final-order-wrapper">
-                    <button class="button additional-button set-an-order-button" type="submit">
-                      Оформить заказ
-                    </button>
-                    <span>Итого: 790 ₽</span>
+                      <span>Итого: 790 ₽</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="popover cart-popover-empty cart-popover-empty-control">
-                <div class="cart-popover-empty-content">
-                  <h3 class="cart-popover-empty-title">Ваша корзина пока<br>пуста</h3>
+                <div class="popover cart-popover-empty cart-popover-empty-control">
+                  <div class="cart-popover-empty-content">
+                    <h3 class="cart-popover-empty-title">Ваша корзина пока<br>пуста</h3>
+                  </div>
                 </div>
               </div>
             </li>

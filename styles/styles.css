@@ -311,7 +311,7 @@ img {
   opacity: 0.3
 }
 
-.user-interface-item-login:focus-within .login-button:not(:focus) {
+.login-button-wrapper:focus-within .login-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -325,7 +325,7 @@ img {
 .login-button:active.login-button::before,
 .login-button:focus-visible.login-button::before,
 .login-button:focus-within.login-button::before,
-.user-interface-item-login:focus-within .login-button:not(:focus).login-button::before {
+.login-button-wrapper:focus-within .login-button:not(:focus).login-button::before {
   display: block;
 }
 
@@ -388,7 +388,7 @@ img {
   opacity: 0.3
 }
 
-.user-interface-item-cart:focus-within .cart-button:not(:focus) {
+.cart-button-wrapper:focus-within .cart-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -397,7 +397,7 @@ img {
 .cart-button:active.cart-button::before,
 .cart-button:focus-visible.cart-button::before,
 .cart-button:focus-within.cart-button::before,
-.user-interface-item-cart:focus-within .cart-button:not(:focus).cart-button::before {
+.cart-button-wrapper:focus-within .cart-button:not(:focus).cart-button::before {
   display: block;
 }
 
@@ -1768,7 +1768,7 @@ img {
   display: block;
 }
 
-.user-interface-item-cart {
+.cart-button-wrapper {
   position: relative;
 }
 
@@ -1789,7 +1789,7 @@ img {
   display: none;
 }
 
-.user-interface-item-cart:focus-within .cart-popover-control {
+.cart-button-wrapper:focus-within .cart-popover-control {
   display: block;
 }
 
@@ -1838,7 +1838,7 @@ img {
 
 /* Поповер входа в личный кабинет */
 
-.user-interface-item-login {
+.login-button-wrapper {
   position: relative;
 }
 
@@ -1859,7 +1859,7 @@ img {
   display: none;
 }
 
-.user-interface-item-login:focus-within .login-popover-control {
+.login-button-wrapper:focus-within .login-popover-control {
   display: block;
 }
 
