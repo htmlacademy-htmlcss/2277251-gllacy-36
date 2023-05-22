@@ -1437,6 +1437,7 @@ img {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 48px 0;
 }
 
 .socials-list {
@@ -1452,7 +1453,6 @@ img {
   flex-wrap: wrap;
   gap: 8px 24px;
   max-width: 356px;
-  padding: 48px 0;
 }
 
 .footer-list-item {
@@ -1529,14 +1529,20 @@ img {
   display: flex;
   align-self: start;
   fill: #2d3440;
+  width: 93px;
+  height: 27px;
+  background-image: url("../images/html-academy-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 14px;
 }
 
 .logo-html-academy:hover {
-  fill: #fa505b;
+  opacity: 0.6;
 }
 
 .logo-html-academy:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .logo-html-academy:focus-visible {
