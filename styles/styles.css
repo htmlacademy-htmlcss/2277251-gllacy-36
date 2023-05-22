@@ -239,7 +239,7 @@ img {
   opacity: 0.3
 }
 
-.header-right-item-search:focus-within .search-button:not(:focus) {
+.user-interface-item-search:focus-within .search-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -248,7 +248,7 @@ img {
 .search-button:active.search-button::before,
 .search-button:focus-visible.search-button::before,
 .search-button:focus-within.search-button::before,
-.header-right-item-search:focus-within .search-button:not(:focus).search-button::before {
+.user-interface-item-search:focus-within .search-button:not(:focus).search-button::before {
   display: block;
 }
 
@@ -311,7 +311,7 @@ img {
   opacity: 0.3
 }
 
-.header-right-item-login:focus-within .login-button:not(:focus) {
+.user-interface-item-login:focus-within .login-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -325,7 +325,7 @@ img {
 .login-button:active.login-button::before,
 .login-button:focus-visible.login-button::before,
 .login-button:focus-within.login-button::before,
-.header-right-item-login:focus-within .login-button:not(:focus).login-button::before {
+.user-interface-item-login:focus-within .login-button:not(:focus).login-button::before {
   display: block;
 }
 
@@ -388,7 +388,7 @@ img {
   opacity: 0.3
 }
 
-.header-right-item-cart:focus-within .cart-button:not(:focus) {
+.user-interface-item-cart:focus-within .cart-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
@@ -397,7 +397,7 @@ img {
 .cart-button:active.cart-button::before,
 .cart-button:focus-visible.cart-button::before,
 .cart-button:focus-within.cart-button::before,
-.header-right-item-cart:focus-within .cart-button:not(:focus).cart-button::before {
+.user-interface-item-cart:focus-within .cart-button:not(:focus).cart-button::before {
   display: block;
 }
 
@@ -588,7 +588,7 @@ img {
   right: 18px;
 }
 
-.header-right-list {
+.user-interface-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -641,13 +641,13 @@ img {
   opacity: 0.3;
 }
 
-.header-navigation-item-catalog:focus-within .header-navigation-button-catalog:not(:focus) {
+.catalog-button-wrapper:focus-within .header-navigation-button-catalog:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
 }
 
-.header-navigation-item-catalog:focus-within .header-catalog-image {
+.catalog-button-wrapper:focus-within .header-catalog-image {
   transform: rotate(180deg);
 }
 
@@ -1662,7 +1662,7 @@ img {
 
 /* Поповер каталога */
 
-.header-navigation-item-catalog {
+.catalog-button-wrapper {
   position: relative;
 }
 
@@ -1682,7 +1682,7 @@ img {
   display: none;
 }
 
-.header-navigation-item-catalog:focus-within .catalog-popover-control {
+.catalog-button-wrapper:focus-within .catalog-popover-control {
   display: block;
 }
 
@@ -1720,7 +1720,7 @@ img {
 
 /* Поповер поиска */
 
-.header-right-item-search {
+.user-interface-item-search {
   height: 32px;
   position: relative;
 }
@@ -1750,7 +1750,7 @@ img {
   display: none;
 }
 
-.header-right-item-search:focus-within .search-popover-control {
+.user-interface-item-search:focus-within .search-popover-control {
   display: block;
 }
 
@@ -1768,7 +1768,7 @@ img {
   display: block;
 }
 
-.header-right-item-cart {
+.user-interface-item-cart {
   position: relative;
 }
 
@@ -1789,7 +1789,7 @@ img {
   display: none;
 }
 
-.header-right-item-cart:focus-within .cart-popover-control {
+.user-interface-item-cart:focus-within .cart-popover-control {
   display: block;
 }
 
@@ -1838,7 +1838,7 @@ img {
 
 /* Поповер входа в личный кабинет */
 
-.header-right-item-login {
+.user-interface-item-login {
   position: relative;
 }
 
@@ -1859,7 +1859,7 @@ img {
   display: none;
 }
 
-.header-right-item-login:focus-within .login-popover-control {
+.user-interface-item-login:focus-within .login-popover-control {
   display: block;
 }
 

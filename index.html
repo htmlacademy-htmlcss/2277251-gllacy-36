@@ -18,45 +18,47 @@
           <img src="images/gllacy-logo.svg" width="137" height="56" alt="Логотип Глейси.">
         </a>
         <ul class="header-navigation-list reset-list">
-          <li class="header-navigation-item-catalog">
-            <button class="button header-navigation-button-catalog" type="button">
-              Каталог
-              <svg class="header-catalog-image" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7">
-                <path fill-rule="evenodd" d="M1.80812 1.0532c-.26035-.26035-.68246-.26035-.94281
-                0-.26035.26035-.26035.68246 0 .94281l4.66034 4.66035a.74088.74088 0 0 0
-                  .00624.00632c.1307.13069.30215.19578.47345.19526.16996-.0005.33977-.06558.46944-.19526a.61255.61255
-                  0 0 0 .00621-.00629l4.66041-4.66038c.2603-.26035.2603-.68246 0-.94281-.2604-.26035-.6825-.26035-.9428
-                    0L6.00334 5.24842 1.80812 1.0532Z" clip-rule="evenodd"/></svg>
-            </button>
-            <div class="popover catalog-popover catalog-popover-control">
-              <div class="catalog-popover-content">
-                <ul class="catalog-popover-list">
-                  <li class="catalog-popover-item">
-                    <a class="catalog-popover-link catalog-popover-link-novelties" href="#">
-                      Новинки
-                  </a>
-                  </li>
-                  <li class="catalog-popover-item">
-                    <a class="catalog-popover-link" href="creamy-ice-cream.html">
-                      Сливочное
-                  </a>
-                  </li>
-                  <li class="catalog-popover-item">
-                    <a class="catalog-popover-link" href="#">
-                      Щербеты
-                  </a>
-                  </li>
-                  <li class="catalog-popover-item">
-                    <a class="catalog-popover-link" href="#">
-                      Фруктовый лед
-                  </a>
-                  </li>
-                  <li class="catalog-popover-item">
-                    <a class="catalog-popover-link" href="#">
-                      Мелорин
-                  </a>
-                  </li>
-                </ul>
+          <li class="header-navigation-item">
+            <div class="catalog-button-wrapper">
+              <button class="button header-navigation-button-catalog" type="button">
+                Каталог
+                <svg class="header-catalog-image" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7">
+                  <path fill-rule="evenodd" d="M1.80812 1.0532c-.26035-.26035-.68246-.26035-.94281
+                  0-.26035.26035-.26035.68246 0 .94281l4.66034 4.66035a.74088.74088 0 0 0
+                    .00624.00632c.1307.13069.30215.19578.47345.19526.16996-.0005.33977-.06558.46944-.19526a.61255.61255
+                    0 0 0 .00621-.00629l4.66041-4.66038c.2603-.26035.2603-.68246 0-.94281-.2604-.26035-.6825-.26035-.9428
+                      0L6.00334 5.24842 1.80812 1.0532Z" clip-rule="evenodd"/></svg>
+              </button>
+              <div class="popover catalog-popover catalog-popover-control">
+                <div class="catalog-popover-content">
+                  <ul class="catalog-popover-list">
+                    <li class="catalog-popover-item">
+                      <a class="catalog-popover-link catalog-popover-link-novelties" href="#">
+                        Новинки
+                    </a>
+                    </li>
+                    <li class="catalog-popover-item">
+                      <a class="catalog-popover-link" href="creamy-ice-cream.html">
+                        Сливочное
+                    </a>
+                    </li>
+                    <li class="catalog-popover-item">
+                      <a class="catalog-popover-link" href="#">
+                        Щербеты
+                    </a>
+                    </li>
+                    <li class="catalog-popover-item">
+                      <a class="catalog-popover-link" href="#">
+                        Фруктовый лед
+                    </a>
+                    </li>
+                    <li class="catalog-popover-item">
+                      <a class="catalog-popover-link" href="#">
+                        Мелорин
+                    </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </li>
@@ -74,8 +76,8 @@
       </nav>
         <div class="user-interface-wrapper">
           <a class="header-tel-link" href="tel:+78005558628">+7 800 555-86-28</a>
-          <ul class="header-right-list reset-list">
-            <li class="header-right-item-search">
+          <ul class="user-interface-list reset-list">
+            <li class="user-interface-item-search">
               <button class="user-button search-button" type="submit" aria-label="Поиск по сайту.">
               </button>
               <div class="popover search-popover search-popover-control">
@@ -87,7 +89,7 @@
                 </div>
               </div>
             </li>
-            <li class="header-right-item-login">
+            <li class="user-interface-item-login">
               <button class="user-button login-button" type="button">
                 Вход
               </button>
@@ -115,7 +117,7 @@
               </div>
             </li>
             <!-- Для показа пустой корзины добавить для li ниже дополнительный класс cart-empty -->
-            <li class="header-right-item-cart">
+            <li class="user-interface-item-cart">
               <button class="user-button cart-button" type="button">
                 <span class="with-goods">2 товара</span>
                 <span class="without-goods">Нет товаров</span>
