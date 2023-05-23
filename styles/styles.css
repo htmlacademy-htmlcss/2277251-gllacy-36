@@ -856,6 +856,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 270px);
   gap: 40px 30px;
+  margin-bottom: 16px;
 }
 
 .goods-item {
@@ -1565,6 +1566,28 @@ img {
 }
 
 /* Пагинация в каталоге*/
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 41px 0;
+}
+
+.pagination-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination-list {
+  display: flex;
+}
+
+.button-show-more {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 .pagination-prev {
   display: block;
