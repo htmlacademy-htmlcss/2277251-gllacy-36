@@ -1645,6 +1645,27 @@ img {
   border-radius: 50px;
 }
 
+.pagination-prev:hover,
+.pagination-next:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+  border-radius: 50px;
+}
+
+.pagination-prev:active,
+.pagination-next:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid #fcfcfc;
+  outline-offset: -1px;
+}
+
+.pagination-prev:focus-visible,
+.pagination-next:focus-visible {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid #fcfcfc;
+  outline-offset: -1px;
+  border-radius: 50px;
+}
+
 /* Иконки социальных сетей */
 
 .socials-link {
