@@ -1846,17 +1846,14 @@ img {
   width: 420px;
   min-height: 350px;
   padding: 48px;
+  display: none;
 }
 
 .login-popover-content {
   height: 100%;
 }
 
-.login-popover-control {
-  display: none;
-}
-
-.login-button-wrapper:focus-within .login-popover-control {
+.login-button-wrapper:focus-within .login-popover {
   display: block;
 }
 
@@ -1875,7 +1872,7 @@ img {
   color: #2d3440;
 }
 
-.login-popover-input:last-child {
+.login-popover-input:last-of-type {
   margin-bottom: 32px;
 }
 
