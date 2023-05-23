@@ -1776,17 +1776,14 @@ img {
   width: 441px;
   min-height: 382px;
   padding: 48px;
+  display: none;
 }
 
 .cart-popover-content {
   height: 100%;
 }
 
-.cart-popover-control {
-  display: none;
-}
-
-.cart-button-wrapper:focus-within .cart-popover-control {
+.cart-button-wrapper:focus-within .cart-popover {
   display: block;
 }
 
@@ -1815,7 +1812,7 @@ img {
   display: block;
 }
 
-.cart-empty:focus-within .cart-popover-control {
+.cart-empty:focus-within .cart-popover {
   display: none;
 }
 
