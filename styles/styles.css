@@ -780,8 +780,8 @@ img {
 /* Секция баннеров с подарками */
 
 .gifts-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
@@ -790,7 +790,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  min-width: 570px;
   background-color: #ff7799;
   border-radius: 16px;
   padding: 36px;
