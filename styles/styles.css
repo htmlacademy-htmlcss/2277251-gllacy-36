@@ -1434,9 +1434,6 @@ img {
 
 .page-footer {
   margin-top: auto;
-}
-
-.footer-wrapper {
   display: flex;
   justify-content: space-between;
   padding: 48px 0;
