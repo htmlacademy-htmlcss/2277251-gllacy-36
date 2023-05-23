@@ -123,19 +123,23 @@
                 </button>
                 <div class="popover cart-popover">
                   <h2 class="cart-popover-title">Корзина</h2>
-                  <ul class="cart-items-list">
+                  <ul class="cart-items-list reset-list">
                     <li class="cart-item">
-                      <img src="images/raspberry-ice-cream-card.png" width="46" height="46" alt="Шарик малинового мороженого.">
-                      <h3 class="cart-item-title">Малинка</h3>
-                      <span>1 кг х 310 ₽</span>
-                      <span>310 ₽</span>
+                      <img class="cart-item-image" src="images/raspberry-ice-cream-card.png" width="46" height="46" alt="Шарик малинового мороженого.">
+                      <div class="cart-item-wrapper">
+                        <a class="cart-item-title-link" href="#">Малинка</a>
+                        <span class="intermediate-price">1 кг х 310 ₽</span>
+                      </div>
+                      <span class="cart-item-price">310 ₽</span>
                       <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины."></button>
                     </li>
                     <li class="cart-item">
-                      <img src="images/bubble-gum-ice-cream-card.png" width="46" height="46" alt="Шарик бабл-гам мороженого.">
-                      <h3 class="cart-item-title">Бабл-гам</h3>
-                      <span>1,5 кг х 320 ₽</span>
-                      <span>480 ₽</span>
+                      <img class="cart-item-image" src="images/bubble-gum-ice-cream-card.png" width="46" height="46" alt="Шарик бабл-гам мороженого.">
+                      <div class="cart-item-wrapper">
+                        <a class="cart-item-title-link" href="#">Бабл-гам</a>
+                        <span class="intermediate-price">1,5 кг х 320 ₽</span>
+                      </div>
+                      <span class="cart-item-price">480 ₽</span>
                       <button class="popover-item-close-button" type="button" aria-label="Удалить товар из корзины.">
                       </button>
                     </li>
@@ -144,13 +148,11 @@
                     <button class="button additional-button set-an-order-button" type="submit">
                       Оформить заказ
                     </button>
-                    <span>Итого: 790 ₽</span>
+                    <span class="cart-item-price total-price">Итого: 790 ₽</span>
                   </div>
                 </div>
-                <div class="popover cart-popover-empty cart-popover-empty-control">
-                  <div class="cart-popover-empty-content">
-                    <h3 class="cart-popover-empty-title">Ваша корзина пока<br>пуста</h3>
-                  </div>
+                <div class="popover cart-popover-empty">
+                  <h3 class="cart-popover-empty-title">Ваша корзина пока<br>пуста</h3>
                 </div>
               </div>
             </li>

@@ -906,15 +906,18 @@ img {
   color: #2d3440;
 }
 
-.goods-title-link:hover {
+.goods-title-link:hover,
+.cart-item-title-link:hover {
   color: #fa505b;
 }
 
-.goods-title-link:active {
+.goods-title-link:active,
+.cart-item-title-link:active {
   opacity: 0.6;
 }
 
-.goods-title-link:focus-visible {
+.goods-title-link:focus-visible,
+.cart-item-title-link:focus-visible {
   outline: 2px solid #fa505b;
   outline-offset: 2px;
 }
@@ -1831,17 +1834,13 @@ img {
   display: none;
 }
 
-.cart-popover-content {
-  height: 100%;
-}
-
 .cart-button-wrapper:focus-within .cart-popover {
   display: block;
 }
 
 .popover-item-close-button {
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   border: none;
   background-image: url("../images/popover-delete-item-button.svg");
   background-repeat: no-repeat;
@@ -1849,7 +1848,23 @@ img {
   background-color: transparent;
   cursor: pointer;
   padding: 3px;
+  margin-left: auto;
+  align-self: center;
 }
+
+.popover-item-close-button:hover {
+  opacity: 0.6;
+}
+
+.popover-item-close-button:active {
+  opacity: 0.3;
+}
+
+.popover-item-close-button:focus-visible {
+  outline: 2px solid #fa505b;
+}
+
+
 
 .cart-popover-empty {
   position: absolute;
@@ -1877,7 +1892,75 @@ img {
   line-height: 30px;
   color: #2d3440;
   text-align: center;
-  }
+}
+
+.cart-popover-title {
+  margin: 0 0 30px 0;
+}
+
+.cart-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 160px;
+}
+
+.cart-items-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cart-items-list::after {
+  content: "";
+  position: absolute;
+  width: 345px;
+  height: 1px;
+  border: 1px solid #E7E7E7;
+  bottom: 32px;
+}
+
+.cart-item {
+  display: flex;
+  width: 100%;
+}
+
+.cart-item-title-link {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #2d3440;
+
+}
+
+.cart-item-image {
+  margin-right: 16px;
+}
+
+.cart-item-price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2d3440;
+  align-self: center;
+}
+
+.cart-item:last-child {
+  margin-bottom: 62px;
+}
+
+.intermediate-price {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b9b9b9;
+}
+
+.set-an-order-button {
+  margin-right: 27px;
+}
 
 /* Поповер входа в личный кабинет */
 
