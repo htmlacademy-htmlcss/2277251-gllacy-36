@@ -1297,7 +1297,15 @@ img {
 }
 
 .contacts-description {
+  margin-top: 0;
+  max-width: 179px;
   color: #565c66;
+  margin-bottom: 12px;
+}
+
+.contacts-phone-description {
+  color: #565c66;
+  margin-bottom: 12px;
 }
 
 .contacts-address {
@@ -1306,6 +1314,7 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .contacts-phone {
@@ -1336,6 +1345,10 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #565c66;
+}
+
+.feedback-form-button {
+  max-width: 250px;
 }
 
 /* Хлебные крошки на внутренней странице */
