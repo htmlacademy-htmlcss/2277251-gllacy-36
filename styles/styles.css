@@ -1670,17 +1670,10 @@ img {
   left: 0;
   width: 135px;
   min-height: 188px;
-}
-
-.catalog-popover-content {
-  height: 100%;
-}
-
-.catalog-popover-control {
   display: none;
 }
 
-.catalog-button-wrapper:focus-within .catalog-popover-control {
+.catalog-button-wrapper:focus-within .catalog-popover {
   display: block;
 }
 
