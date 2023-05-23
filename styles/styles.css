@@ -224,7 +224,6 @@ img {
 .search-button:focus-within {
   background-color: #ff4a78;
   border-radius: 27px;
-  fill: #fcfcfc;
 }
 
 .search-button:focus-within:hover {
@@ -241,7 +240,6 @@ img {
 
 .search-button-wrapper:focus-within .search-button:not(:focus) {
   background-color: #ff4a78;
-  fill: #fcfcfc;
   color: #fcfcfc;
 }
 
@@ -295,7 +293,6 @@ img {
 
 .login-button:focus-within {
   background-color: #ff4a78;
-  fill: #fcfcfc;
   color: #fcfcfc;
 }
 
@@ -313,7 +310,6 @@ img {
 
 .login-button-wrapper:focus-within .login-button:not(:focus) {
   background-color: #ff4a78;
-  fill: #fcfcfc;
   color: #fcfcfc;
 }
 
@@ -523,18 +519,6 @@ img {
   fill: #2d3440;
 }
 
-.slider-wrapper {
-  position: relative;
-}
-
-.slider-buttons-wrapper {
-  position: absolute;
-  top: 243px;
-  left: 528px;
-  display: flex;
-  column-gap: 291px;
-}
-
 /* Хедер */
 
 .page-header {
@@ -680,6 +664,18 @@ img {
 
 .slider {
   padding-top: 36px;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-buttons-wrapper {
+  position: absolute;
+  top: 243px;
+  left: 528px;
+  display: flex;
+  column-gap: 291px;
 }
 
 .slider-small-image {
@@ -1090,8 +1086,6 @@ img {
   outline: 2px solid #fa505b;
   outline-offset: 2px;
 }
-
-
 
 /* Форма подписки в блоке с новостями */
 
@@ -1839,9 +1833,9 @@ img {
   text-align: center;
   }
 
-  .cart-popover-empty-control {
-    display: none;
-  }
+.cart-popover-empty-control {
+  display: none;
+}
 
 /* Поповер входа в личный кабинет */
 
