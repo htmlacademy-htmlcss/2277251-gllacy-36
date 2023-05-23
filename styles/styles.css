@@ -1568,8 +1568,8 @@ img {
 
 .pagination-prev {
   display: block;
-  width: 6px;
-  height: 11px;
+  width: 16px;
+  height: 16px;
   background-image: url("../images/pagination-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1577,8 +1577,8 @@ img {
 
 .pagination-next {
   display: block;
-  width: 6px;
-  height: 11px;
+  width: 16px;
+  height: 16px;
   background-image: url("../images/pagination-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
