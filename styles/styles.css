@@ -523,18 +523,16 @@ img {
   fill: #2d3440;
 }
 
-.slider-prev {
-  position: absolute;
-  top: 243px;
-  left: -1px;
-  background-color: rgba(252, 252, 252, 0.3);
+.slider-wrapper {
+  position: relative;
 }
 
-.slider-next {
+.slider-buttons-wrapper {
   position: absolute;
   top: 243px;
-  right: -3px;
-  background-color: rgba(252, 252, 252, 0.3);
+  left: 528px;
+  display: flex;
+  column-gap: 291px;
 }
 
 /* Хедер */
