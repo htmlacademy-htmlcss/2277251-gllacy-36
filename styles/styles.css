@@ -905,6 +905,19 @@ img {
   color: #2d3440;
 }
 
+.goods-title-link:hover {
+  color: #fa505b;
+}
+
+.goods-title-link:active {
+  opacity: 0.6;
+}
+
+.goods-title-link:focus-visible {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
 .goods-description {
   text-align: center;
   color: #565c66;
