@@ -1858,9 +1858,10 @@ img {
   width: 288px;
   min-height: 156px;
   padding: 48px 0;
+  display: none;
 }
 
-.cart-empty:focus-within .cart-popover-empty-control {
+.cart-empty:focus-within .cart-popover-empty {
   display: block;
 }
 
@@ -1877,10 +1878,6 @@ img {
   color: #2d3440;
   text-align: center;
   }
-
-.cart-popover-empty-control {
-  display: none;
-}
 
 /* Поповер входа в личный кабинет */
 
