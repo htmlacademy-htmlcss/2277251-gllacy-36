@@ -1730,10 +1730,13 @@ img {
   width: 356px;
   min-height: 96px;
   padding: 24px 16px;
+  display: none;
 }
 
-.search-popover-content {
-  height: 100%;
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .search-popover-input {
@@ -1744,11 +1747,7 @@ img {
   padding-left: 16px;
 }
 
-.search-popover-control {
-  display: none;
-}
-
-.search-button-wrapper:focus-within .search-popover-control {
+.search-button-wrapper:focus-within .search-popover {
   display: block;
 }
 
