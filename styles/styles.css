@@ -1315,6 +1315,10 @@ img {
   display: none;
 }
 
+.tooltip-address-text {
+  min-width: 168px;
+}
+
 .tooltip:hover .tooltip-text {
   display: block;
 }
