@@ -1451,6 +1451,13 @@ img {
 
 /* Хлебные крошки на внутренней странице */
 
+.creamy-ice-cream-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 50px;
+}
+
 .breadcrumbs-list {
   display: flex;
   flex-wrap: wrap;
@@ -1502,6 +1509,7 @@ img {
 }
 
 .catalog-title {
+  margin: 0 0 40px 0;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
@@ -1509,6 +1517,36 @@ img {
 }
 
 /* Фильтр на внутренней странице */
+
+.ice-cream-filter {
+  margin-bottom: 44px;
+}
+
+.ice-cream-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 823px;
+  gap: 10px;
+}
+
+.ice-cream-filter-group {
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+}
+
+.ice-cream-filter-list {
+  display: flex;
+  gap: 16px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 18px;
+  padding: 8px 24px;
+}
+
+.apply-button {
+  margin-top: 27px;
+  max-height: 36px;
+}
 
 .ice-cream-filter-title {
   font-size: 14px;
@@ -1529,7 +1567,7 @@ img {
   -webkit-appearance: none;
   background-image: url("../images/catalog-arrow.svg");
   background-repeat: no-repeat;
-  background-position: 170px 15px;
+  background-position: 169px 16px;
   cursor: pointer;
 }
 
