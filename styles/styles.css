@@ -1733,6 +1733,12 @@ img {
   border-radius: 50px;
 }
 
+/* Разделитель на внутренней странице */
+
+.main-catalog {
+  border-bottom: 1px solid rgba(252, 252, 252, 0.3);
+}
+
 /* Иконки социальных сетей */
 
 .socials-link {
