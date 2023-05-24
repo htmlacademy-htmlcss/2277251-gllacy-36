@@ -1795,11 +1795,18 @@ img {
 }
 
 .search-popover-input {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
   width: 324px;
   min-height: 48px;
   padding-left: 16px;
+}
+
+.search-popover-input::placeholder {
+  color: #b9b9b9;
 }
 
 .search-button-wrapper:focus-within .search-popover {
