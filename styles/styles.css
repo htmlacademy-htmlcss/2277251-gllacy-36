@@ -663,6 +663,7 @@ img {
 
 .slider {
   padding-top: 40px;
+  margin-bottom: 80px;
 }
 
 .slider-wrapper {
@@ -805,6 +806,10 @@ img {
 
 /* Секция баннеров с подарками */
 
+.banners {
+  margin-bottom: 80px;
+}
+
 .gifts-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -854,6 +859,8 @@ img {
   line-height: 46px;
   text-align: center;
   color: #2d3440;
+  max-width: 434px;
+  margin: 0 auto 55px;
 }
 
 .gift-title {
@@ -912,7 +919,7 @@ img {
 
 .goods-image {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 16px;
   object-fit: cover;
   clip-path: circle(50% at 50% 50%);
 }
@@ -924,6 +931,8 @@ img {
   line-height: 46px;
   text-align: center;
   color: #2d3440;
+  max-width: 527px;
+  margin: 0 auto 55px;
 }
 
 .goods-title-link {
