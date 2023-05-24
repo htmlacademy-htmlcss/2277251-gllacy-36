@@ -1238,7 +1238,7 @@ img {
   margin-bottom: 20px;
 }
 
-.delivery-form-label-address {
+.delivery-form-label:last-of-type {
   margin-bottom: 32px;
 }
 
@@ -1247,11 +1247,17 @@ img {
 }
 
 .delivery-form-label {
-  display: flex;
-  flex-direction: column;
   font-weight: 700;
   line-height: 20px;
   color: #2d3440;
+}
+
+.delivery-form-label-date {
+  max-width: 117px;
+}
+
+.delivery-form-label-phone {
+  max-width: 287px;
 }
 
 .delivery-input {
@@ -1273,6 +1279,44 @@ img {
 
 .delivery-input::placeholder {
   color: #b9b9b9;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 4px;
+  left: 5px;
+  background-image: url("../images/tooltip-info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #fcfcfc;
+  color: #565c66;
+  box-shadow: 0 2px 12px rgba(173, 152, 143, 0.18);
+  border: 1px solid #b9b9b9;
+  border-radius: 2px;
+  max-width: 122px;
+  padding: 10px 8px;
+  display: none;
+}
+
+.tooltip:hover .tooltip-text {
+  display: block;
 }
 
 /* Блок "Обратная связь" */
