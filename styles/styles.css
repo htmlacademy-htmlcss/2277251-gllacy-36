@@ -1902,7 +1902,9 @@ img {
 }
 
 .cart-popover-title {
+  line-height: 30px;
   margin: 0 0 30px 0;
+  color: #2d3440;
 }
 
 .cart-item-wrapper {
