@@ -1994,6 +1994,9 @@ img {
 }
 
 .login-popover-input {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   width: 324px;
   min-height: 48px;
   margin-bottom: 16px;
