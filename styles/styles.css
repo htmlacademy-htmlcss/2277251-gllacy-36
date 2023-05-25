@@ -831,7 +831,7 @@ img {
 .raspberry-gift::before {
   content: "";
   position: absolute;
-  top: 12px;
+  bottom: -12px;
   right: 2px;
   width: 219px;
   height: 268px;
@@ -844,7 +844,7 @@ img {
 .marshmallow-gift::before {
   content: "";
   position: absolute;
-  top: 30px;
+  bottom: 5px;
   right: -10px;
   width: 219px;
   height: 233px;
