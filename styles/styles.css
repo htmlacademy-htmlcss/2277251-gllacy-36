@@ -1185,7 +1185,7 @@ img {
 .newsletter-field {
   border: 1px solid #b9b9b9;
   border-radius: 4px;
-  width: 332px;
+  flex-grow: 1;
   height: 100%;
   padding: 14px 16px;
   font-family: "Inter", sans-serif;
