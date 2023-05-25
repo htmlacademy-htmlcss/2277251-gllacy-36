@@ -1381,6 +1381,7 @@ img {
   left: 0;
   background-image: url("../images/feedback-background.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   border-radius: 16px;
   z-index: -1;
