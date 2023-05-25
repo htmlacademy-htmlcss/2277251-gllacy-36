@@ -2127,8 +2127,6 @@ img {
   outline: 2px solid #fa505b;
 }
 
-
-
 .cart-popover-empty {
   position: absolute;
   top: 40px;
@@ -2198,7 +2196,6 @@ img {
   font-size: 18px;
   text-decoration: none;
   color: #2d3440;
-
 }
 
 .cart-item-image {
