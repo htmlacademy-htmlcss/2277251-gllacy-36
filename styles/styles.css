@@ -81,12 +81,33 @@ img {
 }
 
 .button {
+  display: inline-flex;
   border: none;
   cursor: pointer;
   background-color: transparent;
   color: #000000;
   text-decoration: none;
   border-radius: 26px;
+}
+
+.button.is-loading {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button.is-loading::after {
+  content: "";
+  display: inline-flex;
+  margin-left: 9px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(36, 36, 36, 0.24);
+  border-bottom-color: #242424;
+  border-radius: 50%;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .user-button {
@@ -694,7 +715,7 @@ img {
 
 .slider-description {
   max-width: 429px;
-  margin: 0 0 48px 0;
+  margin: 0 0 59px 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -716,10 +737,7 @@ img {
 }
 
 .slider-description-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 0 0 70px;
+  padding: 118px 0 0 70px;
 }
 
 .slider-item {
@@ -733,10 +751,6 @@ img {
 .slider-item .slider-picture-wrapper {
   transform: scale(0.3);
   opacity: 0.4;
-}
-
-.order-button-link {
-  max-width: 135px;
 }
 
 .slider-picture-wrapper {
@@ -882,7 +896,7 @@ img {
 }
 
 .gift-button {
-  max-width: 176px;
+  align-self: flex-start;
 }
 
 /* Карточки товаров */
@@ -1314,7 +1328,6 @@ img {
 }
 
 .send-button {
-  max-width: 152px;
   margin: 0 auto;
 }
 
@@ -1528,7 +1541,7 @@ img {
 .ice-cream-filter-form {
   display: flex;
   flex-wrap: wrap;
-  max-width: 835px;
+  max-width: 840px;
   gap: 10px 20px;
 }
 
@@ -2311,4 +2324,13 @@ img {
 .login-form {
   display: flex;
   flex-wrap: wrap;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
