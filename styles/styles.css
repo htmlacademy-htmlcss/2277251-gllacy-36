@@ -1525,8 +1525,8 @@ img {
 .ice-cream-filter-form {
   display: flex;
   flex-wrap: wrap;
-  max-width: 823px;
-  gap: 10px;
+  max-width: 835px;
+  gap: 10px 20px;
 }
 
 .ice-cream-filter-group {
@@ -1552,6 +1552,7 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
+  padding-left: 16px;
 }
 
 .ice-cream-filter-select {
@@ -1595,6 +1596,91 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
+}
+
+/* Рендж слайдер */
+
+.range-wrapper {
+  position: relative;
+  min-width: 196px;
+  padding: 6px 16px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+}
+
+.range-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 164px;
+  height: 2px;
+  background-color: #565c66;
+  opacity: 0.3;
+  top: 18px;
+  left: 16px;
+  z-index: -1;
+}
+
+.range-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  background-color: #565c66;
+  top: 18px;
+  left: 56px;
+  z-index: -1;
+}
+
+.range-toggle {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #2d3440;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background-color: #fcfcfc;
+}
+
+.range-toggle:hover::before {
+  background-color: #2d3440;
+}
+
+.range-toggle:active,
+.range-toggle:hover::before {
+  background-color: #2d3440;
+}
+
+.range-toggle:focus-visible {
+  background-color: #fcfcfc;
+  border: none;
+  outline: 2px solid #2d3440;
+}
+
+.range-toggle:focus-visible::before {
+  background-color: #2d3440;
+}
+
+.range-toggle::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #fcfcfc;
+  top: 6px;
+  left: 6px;
+  border-radius: 50%;
+}
+
+.toggle-min {
+  transform: translate(24px, -4px);
+}
+
+.toggle-max {
+  transform: translate(73px, -4px);
 }
 
 /* Футер */
