@@ -750,8 +750,8 @@ img {
   position: absolute;
   width: 328px;
   height: 312px;
+  top: 100px;
   left: calc(50% - 328px/2);
-  top: calc(50% - 312px/2);
   background-color: #ffc8d8;
   border-radius: 50%;
   z-index: -1;
