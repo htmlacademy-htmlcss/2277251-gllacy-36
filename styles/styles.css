@@ -766,7 +766,9 @@ img {
 
 .slider-pagination-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
+  max-width: 52px;
 }
 
 .slider-pagination-button {
@@ -1537,6 +1539,7 @@ img {
 
 .ice-cream-filter-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
@@ -1835,6 +1838,8 @@ img {
 
 .pagination-list {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 120px;
 }
 
 .button-show-more {
