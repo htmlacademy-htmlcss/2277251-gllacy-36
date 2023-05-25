@@ -1206,6 +1206,8 @@ img {
   border-radius: 16px;
   position: relative;
   margin-bottom: 80px;
+  background-color: #f0f0f0;
+  z-index: 1;
 }
 
 .delivery::before {
@@ -1218,8 +1220,7 @@ img {
   border-radius: 16px;
   background-image: url("../images/delivery-background.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: top;
   z-index: -1;
 }
 
@@ -1280,7 +1281,7 @@ img {
 }
 
 .delivery-form-label:last-of-type {
-  margin-bottom: 32px;
+  margin-bottom: 18px;
 }
 
 .address-input {
