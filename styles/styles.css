@@ -546,6 +546,7 @@ img {
 .page-header {
   display: flex;
   padding-top: 24px;
+  gap: 40px;
 }
 
 .header-navigation {
@@ -572,7 +573,8 @@ img {
 .header-navigation-list {
   display: flex;
   align-items: center;
-  max-width: 425px;
+  flex-wrap: wrap;
+  max-width: 465px;
 }
 
 .header-navigation-button-catalog {
