@@ -542,6 +542,10 @@ img {
   fill: #2d3440;
 }
 
+.slider-button:disabled {
+  opacity: 0.4;
+}
+
 /* Хедер */
 
 .page-header {
