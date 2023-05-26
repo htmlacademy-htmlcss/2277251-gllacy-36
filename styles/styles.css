@@ -431,6 +431,7 @@ img {
   background-repeat: no-repeat;
   background-position: 8px 9px;
   display: inline-flex;
+  margin-left: auto;
 }
 
 .button-add-to-cart::before {
@@ -776,6 +777,7 @@ img {
 .slider-footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 .slider-pagination-list {
@@ -783,6 +785,7 @@ img {
   flex-wrap: wrap;
   gap: 8px;
   max-width: 52px;
+  align-self: flex-end;
 }
 
 .slider-pagination-button {
@@ -914,7 +917,7 @@ img {
 
 .goods-item {
   position: relative;
-  padding: 0 40px 40px 40px;
+  padding: 0 40px 24px 40px;
 }
 
 .goods-item::before {
@@ -952,6 +955,7 @@ img {
 }
 
 .goods-title-link {
+  margin-bottom: 8px;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -978,12 +982,17 @@ img {
 }
 
 .goods-description {
+  margin-top: 0;
   text-align: center;
   color: #565c66;
 }
 
+.goods-price-wrapper {
+  display: flex;
+}
+
 .goods-price {
-  margin-right: 65px;
+  align-self: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1535,7 +1544,7 @@ img {
 /* Фильтр на внутренней странице */
 
 .ice-cream-filter {
-  margin-bottom: 44px;
+  margin-bottom: 35px;
 }
 
 .ice-cream-filter-form {
