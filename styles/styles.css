@@ -1656,23 +1656,51 @@ img {
 }
 
 .control {
+  position: relative;
   cursor: pointer;
   padding-left: 24px;
 }
 
 .control-outline {
-  position: relative;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 16px;
+  height: 100%;
 }
 
-.control-outline::after {
+.input-radio + .control-outline::after {
   content: "";
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 2px;
-  left: -24px;
+  top: 4px;
+  left: 0;
   border: 1.5px solid #2d3440;
   border-radius: 50%;
+}
+
+.control:hover .control-outline::after {
+  border-color: #fcfcfc;
+}
+
+.control:hover .input-radio:checked + .control-outline-radio::before {
+  background-color: #fcfcfc;
+}
+
+.control:active .input-radio-text,
+.control:active .input-checkbox-text {
+  opacity: 0.7;
+}
+
+.input-checkbox:focus-visible + .control-outline,
+.input-radio:focus-visible + .control-outline {
+  outline: 2px solid #fa505b;
+  outline-offset: 2px;
+}
+
+.input-disabled {
+  opacity: 0.4;
 }
 
 .input-radio:checked + .control-outline-radio::before {
@@ -1680,10 +1708,57 @@ img {
   position: absolute;
   width: 6px;
   height: 6px;
-  top: 7px;
-  left: -19px;
+  top: 9px;
+  left: 5px;
   background-color: #2d3440;
   border-radius: 50%;
+}
+
+.input-checkbox + .control-outline::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+  background-image: url("../images/checkbox-not-checked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-checkbox + .control-outline::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+  display: none;
+  background-color: #fcfcfc;
+  -webkit-mask: url("../images/checkbox-not-checked.svg");
+  mask: url("../images/checkbox-not-checked.svg");
+}
+
+.input-checkbox:checked + .control-outline::before {
+  background-image: url("../images/checkbox-checked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-checkbox:checked + .control-outline::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+  background-color: #fcfcfc;
+  -webkit-mask: url("../images/checkbox-checked.svg");
+  mask: url("../images/checkbox-checked.svg");
+}
+
+.control:hover .control-outline::after {
+  display: block;
 }
 
 /* Рендж слайдер */
