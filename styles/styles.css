@@ -1363,8 +1363,8 @@ img {
 
 .tooltip-text {
   position: absolute;
-  top: -20px;
-  left: 20px;
+  top: -9px;
+  left: 35px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
   line-height: 16px;
@@ -1376,6 +1376,19 @@ img {
   max-width: 122px;
   padding: 10px 8px;
   display: none;
+}
+
+.tooltip-arrow::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #fcfcfc;
+  top: 11px;
+  left: -8px;
+  border-top: 1px solid #b9b9b9;
+  border-left: 1px solid #b9b9b9;
+  transform: rotate(-45deg);
 }
 
 .tooltip-address-text {
