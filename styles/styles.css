@@ -1560,7 +1560,7 @@ img {
 /* Фильтр на внутренней странице */
 
 .ice-cream-filter {
-  margin-bottom: 35px;
+  margin-bottom: 44px;
 }
 
 .ice-cream-filter-form {
@@ -1883,7 +1883,6 @@ img {
 .pagination-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 120px;
 }
 
 .button-show-more {
@@ -1916,7 +1915,7 @@ img {
 
 .pagination-link {
   display: flex;
-  width: 24px;
+  min-width: 24px;
   height: 24px;
   line-height: 20px;
   text-decoration: none;
