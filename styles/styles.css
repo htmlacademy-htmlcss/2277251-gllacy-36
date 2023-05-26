@@ -1756,7 +1756,6 @@ img {
 .copyright-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .footer-list-title {
@@ -1809,6 +1808,7 @@ img {
 }
 
 .footer-copyright {
+  max-width: 200px;
   font-size: 12px;
   line-height: 16px;
   color: #2d3440;
