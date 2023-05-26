@@ -470,6 +470,10 @@ img {
   cursor: not-allowed;
 }
 
+.button-add-to-cart:disabled::before {
+  background-color: #565c66;
+}
+
 .button-add-to-cart:hover.button-add-to-cart::before,
 .button-add-to-cart:active.button-add-to-cart::before,
 .button-add-to-cart:disabled.button-add-to-cart::before {
