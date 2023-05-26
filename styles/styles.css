@@ -1577,8 +1577,8 @@ img {
 .ice-cream-filter-form {
   display: flex;
   flex-wrap: wrap;
-  max-width: 840px;
-  gap: 15px 20px;
+  max-width: 920px;
+  gap: 15px 18px;
 }
 
 .ice-cream-filter-group {
@@ -1591,6 +1591,7 @@ img {
 .ice-cream-filter-list {
   display: flex;
   flex-wrap: wrap;
+  min-width: 383px;
   gap: 16px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
@@ -1652,6 +1653,37 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
+}
+
+.control {
+  cursor: pointer;
+  padding-left: 24px;
+}
+
+.control-outline {
+  position: relative;
+}
+
+.control-outline::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: -24px;
+  border: 1.5px solid #2d3440;
+  border-radius: 50%;
+}
+
+.input-radio:checked + .control-outline-radio::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 7px;
+  left: -19px;
+  background-color: #2d3440;
+  border-radius: 50%;
 }
 
 /* Рендж слайдер */
