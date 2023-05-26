@@ -1567,12 +1567,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 840px;
-  gap: 10px 20px;
+  gap: 15px 20px;
 }
 
 .ice-cream-filter-group {
   padding-right: 0;
   padding-left: 0;
+  padding: 0;
   border: none;
 }
 
@@ -1594,6 +1595,7 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
+  padding-bottom: 8px;
   padding-left: 16px;
 }
 
@@ -1607,6 +1609,7 @@ img {
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 20px;
   padding: 8px 63px 8px 16px;
+  max-width: 196px;
   -webkit-appearance: none;
   background-image: url("../images/catalog-arrow.svg");
   background-repeat: no-repeat;
@@ -1644,7 +1647,7 @@ img {
 
 .range-wrapper {
   position: relative;
-  min-width: 196px;
+  width: 196px;
   padding: 6px 16px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 20px;
