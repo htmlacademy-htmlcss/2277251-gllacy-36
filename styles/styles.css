@@ -421,7 +421,7 @@ img {
 
 .button-add-to-cart {
   position: relative;
-  width: 32px;
+  min-width: 32px;
   height: 32px;
   border: none;
   background-color: #ff2f64;
