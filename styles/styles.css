@@ -1315,6 +1315,7 @@ img {
 }
 
 .delivery-form-wrapper {
+  align-self: start;
   background: #fcfcfc;
   box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
