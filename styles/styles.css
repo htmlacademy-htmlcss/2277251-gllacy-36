@@ -1529,6 +1529,7 @@ img {
 .breadcrumbs-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .breadcrumbs-item {
