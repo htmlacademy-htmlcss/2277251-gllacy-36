@@ -52,8 +52,9 @@ img {
 }
 
 .page-container {
-  width: 1170px;
+  width: 1366px;
   margin: 0 auto;
+  padding: 0 98px;
   min-height: 100%;
   display: flex;
   flex-direction: column;
