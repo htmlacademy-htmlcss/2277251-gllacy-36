@@ -1684,6 +1684,11 @@ img {
   height: 100%;
 }
 
+.input-radio:disabled + .control-outline,
+.input-checkbox:disabled + .control-outline {
+  opacity: 0.4;
+}
+
 .input-radio + .control-outline::after {
   content: "";
   position: absolute;
@@ -1712,10 +1717,6 @@ img {
 .input-radio:focus-visible + .control-outline {
   outline: 2px solid #fa505b;
   outline-offset: 2px;
-}
-
-.input-disabled {
-  opacity: 0.4;
 }
 
 .input-radio:checked + .control-outline-radio::before {
