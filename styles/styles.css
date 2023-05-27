@@ -1615,6 +1615,14 @@ img {
   padding: 8px 24px;
 }
 
+.radio-list {
+  max-width: 383px;
+}
+
+.checkbox-list {
+  max-width: 604px;
+}
+
 .apply-button {
   margin-top: 27px;
   max-height: 36px;
