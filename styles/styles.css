@@ -792,7 +792,7 @@ img {
   height: 312px;
   top: 100px;
   left: calc(50% - 328px/2);
-  background-color: #ffc8d8;
+  background-color: rgba(252, 252, 252, 0.4);
   border-radius: 50%;
   z-index: -1;
 }
