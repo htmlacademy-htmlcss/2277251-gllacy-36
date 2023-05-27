@@ -1182,11 +1182,11 @@ img {
 }
 
 .news-description-link:hover {
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .news-description-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .news-description-link:focus-visible {
