@@ -994,12 +994,12 @@ img {
 
 .goods-title-link:hover,
 .cart-item-title-link:hover {
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .goods-title-link:active,
 .cart-item-title-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .goods-title-link:focus-visible,
