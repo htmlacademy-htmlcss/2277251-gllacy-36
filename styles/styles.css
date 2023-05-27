@@ -679,11 +679,11 @@ img {
 }
 
 .header-tel-link:hover {
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .header-tel-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .header-tel-link:focus-visible {
