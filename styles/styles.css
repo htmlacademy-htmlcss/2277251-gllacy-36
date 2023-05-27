@@ -1929,11 +1929,11 @@ img {
 }
 
 .footer-link:hover {
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .footer-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .footer-link:focus-visible {
@@ -1960,12 +1960,11 @@ img {
 }
 
 .copyright-link:hover {
-  color: #fa505b;
-  border-color: #fa505b;
+  opacity: 0.6;
 }
 
 .copyright-link:active {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .copyright-link:focus-visible {
