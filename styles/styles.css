@@ -1103,7 +1103,7 @@ img {
   background-image: url("../images/ice-cream-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
   border-radius: 50%;
 }
 
@@ -1121,7 +1121,7 @@ img {
   background-image: url("../images/cow-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
   border-radius: 50%;
 }
 
@@ -1139,7 +1139,7 @@ img {
   background-image: url("../images/leaf-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
   border-radius: 50%;
 }
 
@@ -1157,7 +1157,7 @@ img {
   background-image: url("../images/thermometer-icon.svg");
   background-repeat: no-repeat;
   background-position: 14px 6px;
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
   border-radius: 50%;
 }
 
@@ -1678,7 +1678,7 @@ img {
 }
 
 .ice-cream-filter-select:focus {
-  outline: 2px solid #FCFCFC;
+  outline: 2px solid #fcfcfc;
   outline-offset: -1px;
   border-radius: 26px;
 }
@@ -2281,7 +2281,7 @@ img {
 .newsletter-field:focus,
 .delivery-input:focus,
 .login-popover-input:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border-radius: 4px;
   border: none;
 }
@@ -2435,7 +2435,7 @@ img {
   position: absolute;
   width: 345px;
   height: 1px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   bottom: 32px;
 }
 
