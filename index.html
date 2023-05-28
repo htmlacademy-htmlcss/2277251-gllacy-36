@@ -86,7 +86,8 @@
                 </button>
                 <div class="popover search-popover">
                   <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
-                    <input class="search-popover-input" type="search" name="search"
+                    <!-- Для показа состояния ошибки у инпутов добавить для них класс input-invalid -->
+                    <input class="field input-invalid" type="search" name="search"
                       placeholder="Поиск по сайту" aria-label="Поиск по сайту." required>
                   </form>
                 </div>
@@ -100,9 +101,9 @@
                 <div class="popover login-popover">
                   <h2 class="login-popover-title">Личный кабинет</h2>
                   <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <input class="login-popover-input" type="email" name="login-email"
+                    <input class="field" type="email" name="login-email"
                       aria-label="Ваш email." placeholder="Ваш email" value="email@example.com" required>
-                    <input class="login-popover-input" type="password" name="login-password"
+                    <input class="field" type="password" name="login-password"
                     aria-label="Ваш пароль." placeholder="Ваш пароль" value="123456" required>
                     <button class="button additional-button login-popover-button" type="submit">
                       Войти
@@ -389,7 +390,7 @@
             в&nbsp;курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
             Честно =)</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="newsletter-field" type="email" placeholder="email@example.com" name="newsletter-email"
+            <input class="field newsletter-field" type="email" placeholder="email@example.com" name="newsletter-email"
               aria-label="Ваш email." required>
             <button class="button additional-button send-button" type="submit">
               Отправить
@@ -417,11 +418,11 @@
                   Укажите дату предполагаемой доставки
                 </span>
               </span>
-              <input class="delivery-input date-input" type="text" placeholder="01.04.2020" required>
+              <input class="field date-field" type="text" placeholder="01.04.2020" required>
             </label>
             <label class="delivery-form-label delivery-form-label-phone">
               Телефон
-              <input class="delivery-input phone-input" type="tel" placeholder="+7 800 999-00-00" required>
+              <input class="field phone-field" type="tel" placeholder="+7 800 999-00-00" required>
             </label>
             <label class="delivery-form-label delivery-form-label-address">
               Адрес
@@ -430,7 +431,7 @@
                   Введите название улицы, дома и квартиры
                 </span>
               </span>
-              <input class="delivery-input address-input" type="text" placeholder="ул. Большая Конюшенная, 19/8" required>
+              <input class="field address-field" type="text" placeholder="ул. Большая Конюшенная, 19/8" required>
             </label>
             <button class="button additional-button send-button" type="submit">
               Отправить
@@ -504,9 +505,9 @@
         <section class="modal-content">
           <h2 class="modal-title">Мы обязательно ответим вам!</h2>
           <form class="modal-feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="modal-feedback-input" type="text" name="fullname"
+            <input class="field" type="text" name="fullname"
             placeholder="Имя и фамилия" aria-label="Имя и фамилия." required>
-            <input class="modal-feedback-input" type="email" name="email"
+            <input class="field" type="email" name="email"
             placeholder="email@example.com" aria-label="Ваш email." required>
             <textarea class="feedback-textarea" name="free-form" cols="30" rows="6" placeholder="В свободной форме"></textarea>
             <button class="button additional-button modal-send-button" type="submit">
