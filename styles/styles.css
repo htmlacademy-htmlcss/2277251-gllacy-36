@@ -2537,6 +2537,7 @@ img {
   height: 100%;
   background-color: rgba(45, 52, 64, 0.3);
   z-index: 1;
+  cursor: pointer;
 }
 
 .modal {
@@ -2546,6 +2547,7 @@ img {
   background-color: #fcfcfc;
   box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
+  cursor: default;
 }
 
 .modal-feedback {

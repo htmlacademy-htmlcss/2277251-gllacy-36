@@ -1,3 +1,5 @@
+/* Слайдер */
+
 const sliderTabButtons = document.querySelectorAll('.slider-pagination-button');
 const slides = document.querySelectorAll('.slider-item');
 const buttonPrevious = document.querySelector('.slider-prev');
@@ -45,3 +47,23 @@ buttonNext.addEventListener('click', () => {
   sliderTabButtons[counter].classList.add('slider-pagination-button-current');
   changeColor(slides[counter].dataset.theme);
 });
+
+/* Модальное окно */
+
+const modal = document.querySelector('.modal-container');
+const btn = document.querySelector('.feedback-form-button');
+const closeBtn = document.querySelector('.modal-close-button');
+
+btn.onclick = function () {
+  modal.style.display = "flex";
+}
+
+closeBtn.onclick = function () {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
