@@ -54,11 +54,13 @@ const modal = document.querySelector('.modal-container');
 const btn = document.querySelector('.feedback-form-button');
 const closeBtn = document.querySelector('.modal-close-button');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (evt) => {
+  evt.preventDefault();
   modal.style.display = "flex";
 });
 
-closeBtn.addEventListener('click', () => {
+closeBtn.addEventListener('click', (evt) => {
+  evt.preventDefault();
   modal.style.display = "none";
 });
 
