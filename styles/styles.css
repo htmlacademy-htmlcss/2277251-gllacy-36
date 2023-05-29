@@ -1602,12 +1602,11 @@ img {
 
 .breadcrumbs-link:hover,
 .breadcrumbs-link-current:hover {
-  border-color: #fa505b;
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .breadcrumbs-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .breadcrumbs-link:focus-visible {
