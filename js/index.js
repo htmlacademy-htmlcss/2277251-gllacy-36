@@ -54,16 +54,16 @@ const modal = document.querySelector('.modal-container');
 const btn = document.querySelector('.feedback-form-button');
 const closeBtn = document.querySelector('.modal-close-button');
 
-btn.onclick = function () {
+btn.addEventListener('click', () => {
   modal.style.display = "flex";
-}
+});
 
-closeBtn.onclick = function () {
+closeBtn.addEventListener('click', () => {
   modal.style.display = "none";
-}
+});
 
-window.onclick = function(event) {
+window.addEventListener('click', (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+});
