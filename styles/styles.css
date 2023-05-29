@@ -1530,11 +1530,11 @@ img {
 }
 
 .contacts-phone:hover {
-  color: #fa505b;
+  opacity: 0.6;
 }
 
 .contacts-phone:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .contacts-phone:focus-visible {
