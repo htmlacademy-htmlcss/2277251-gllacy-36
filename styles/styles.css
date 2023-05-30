@@ -1349,7 +1349,7 @@ img {
 .delivery-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 16px;
+  gap: 22px 16px;
 }
 
 .delivery-form .field {
@@ -1387,7 +1387,7 @@ img {
 }
 
 .delivery-form-label:last-of-type {
-  margin-bottom: 13px;
+  margin-bottom: 11px;
 }
 
 .address-field {
