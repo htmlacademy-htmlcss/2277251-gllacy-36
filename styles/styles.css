@@ -2488,6 +2488,7 @@ img {
 }
 
 .login-popover-title {
+  margin: 0 0 32px 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -2495,7 +2496,16 @@ img {
 }
 
 .login-form .field {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.password-field {
+  padding: 13px 14px;
+  letter-spacing: -1px;
+}
+
+.login-popover-button {
+  margin-right: 23px;
 }
 
 .login-form .field:last-of-type {
@@ -2506,6 +2516,7 @@ img {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  row-gap: 2px;
 }
 
 .login-form-recovery-link,
@@ -2519,13 +2530,12 @@ img {
 
 .login-form-recovery-link:hover,
 .registration-form-link:hover {
-  color: #fa505b;
-  border-color: #fa505b;
+  opacity: 0.6;
 }
 
 .login-form-recovery-link:active,
 .registration-form-link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .login-form-recovery-link:focus-visible,
