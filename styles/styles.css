@@ -2068,7 +2068,7 @@ img {
 
 .button-show-more {
   margin-left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-54%);
 }
 
 .pagination-prev {
@@ -2101,7 +2101,7 @@ img {
   line-height: 20px;
   text-decoration: none;
   color: #2d3440;
-  padding: 2px 8px;
+  padding: 2px 7px;
 }
 
 .pagination-current {
