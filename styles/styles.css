@@ -1094,6 +1094,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #ffdead;
   z-index: 1;
   margin-bottom: 80px;
 }
