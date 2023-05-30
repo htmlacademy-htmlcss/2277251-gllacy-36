@@ -1632,10 +1632,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 920px;
-  gap: 15px 18px;
+  gap: 15px 24px;
 }
 
 .ice-cream-filter-group {
+  margin: 0;
   padding-right: 0;
   padding-left: 0;
   padding: 0;
@@ -1649,19 +1650,19 @@ img {
   gap: 16px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
-  padding: 8px 24px;
+  padding: 8px 26px;
 }
 
 .radio-list {
-  max-width: 383px;
+  max-width: 386px;
 }
 
 .checkbox-list {
-  max-width: 604px;
+  max-width: 610px;
 }
 
 .apply-button {
-  margin-top: 27px;
+  margin: 27px 0 0 -5px;
   max-height: 36px;
 }
 
@@ -1902,11 +1903,11 @@ img {
 }
 
 .toggle-min {
-  transform: translate(24px, -4px);
+  transform: translate(24px, -5px);
 }
 
 .toggle-max {
-  transform: translate(73px, -4px);
+  transform: translate(76px, -5px);
 }
 
 /* Футер */
