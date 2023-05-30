@@ -2213,8 +2213,8 @@ img {
 
 .catalog-popover {
   position: absolute;
-  top: 40px;
-  left: 0;
+  top: 43px;
+  left: 2px;
   width: 135px;
   min-height: 188px;
   display: none;
@@ -2226,7 +2226,7 @@ img {
 
 .catalog-popover-list {
   list-style-type: none;
-  padding: 0;
+  padding: 8px 0;
 }
 
 .catalog-popover-link {
@@ -2235,11 +2235,24 @@ img {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
-  padding: 8px 14px;
+  padding: 6px 16px;
 }
 
 .catalog-popover-link-novelties {
+  position: relative;
   font-weight: 700;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
+
+.catalog-popover-link-novelties::after {
+  content: "";
+  position: absolute;
+  top: 39px;
+  left: 15px;
+  width: 103px;
+  height: 1px;
+  background-color: #b9b9b9;
 }
 
 .catalog-popover-link:hover {
