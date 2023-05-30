@@ -1214,7 +1214,7 @@ img {
 
 .news-serving {
   min-width: 570px;
-  padding: 32px 235px 70px 32px;
+  padding: 33px 235px 67px 32px;
   border-radius: 16px;
   background-image: url("../images/news-serving-background.png");
   background-repeat: no-repeat;
@@ -1223,7 +1223,7 @@ img {
 }
 
 .news-title {
-  margin: 0 0 12px 0;
+  margin: 0 0 14px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1278,7 +1278,7 @@ img {
 }
 
 .newsletter-description {
-  margin: 0 0 44px 0;
+  margin: 0 0 46px 0;
   color: #565c66;
 }
 
