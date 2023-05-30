@@ -1262,6 +1262,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #69a9ff;
   z-index: 1;
   border-radius: 16px;
 }
