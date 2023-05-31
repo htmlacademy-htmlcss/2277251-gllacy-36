@@ -2229,6 +2229,7 @@ img {
 .socials-link:hover {
   background-color: #2d3440;
   border: 2px solid rgba(252, 252, 252, 0.5);
+  outline: 2px solid rgba(252, 252, 252, 0.5);
 }
 
 .socials-link:active {
