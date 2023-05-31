@@ -1732,7 +1732,7 @@ img {
   padding: 8px 63px 8px 16px;
   max-width: 196px;
   -webkit-appearance: none;
-  background-image: url("../images/catalog-arrow.svg");
+  background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: 169px 16px;
   cursor: pointer;
