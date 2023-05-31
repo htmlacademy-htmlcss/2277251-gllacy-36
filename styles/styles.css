@@ -609,6 +609,52 @@ img {
   opacity: 0.4;
 }
 
+.slider-button {
+  position: relative;
+  background-image: url("../images/slider-button-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-prev::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  width: 7px;
+  height: 12px;
+  background-color: #000000;
+  -webkit-mask: url("../images/slider-button-arrow.svg");
+  mask: url("../images/slider-button-arrow.svg");
+  display: none;
+}
+
+.slider-next {
+  transform: rotate(180deg);
+}
+
+.slider-next::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  width: 7px;
+  height: 12px;
+  background-color: #000000;
+  -webkit-mask: url("../images/slider-button-arrow.svg");
+  mask: url("../images/slider-button-arrow.svg");
+  display: none;
+}
+
+.slider-prev:hover.slider-prev::before,
+.slider-prev:active.slider-prev::before,
+.slider-prev:focus-visible.slider-prev::before,
+.slider-next:hover.slider-next::before,
+.slider-next:active.slider-next::before,
+.slider-next:focus-visible.slider-next::before {
+  display: block;
+}
+
 /* Хедер */
 
 .page-header {
