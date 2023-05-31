@@ -580,7 +580,6 @@ img {
   width: 35px;
   height: 35px;
   background-color: rgba(252, 252, 252, 0.3);
-  fill: #fcfcfc;
   outline: 2px solid #fcfcfc;
   border-radius: 26px;
   border: none;
@@ -590,7 +589,6 @@ img {
 
 .slider-button:hover {
   background-color: #fcfcfc;
-  fill: #2d3440;
   outline: 2px solid #fcfcfc;
 }
 
@@ -602,7 +600,6 @@ img {
 .slider-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.3);
   outline: 2px solid #2d3440;
-  fill: #2d3440;
 }
 
 .slider-button:disabled {
