@@ -975,27 +975,25 @@ img {
 .raspberry-gift::before {
   content: "";
   position: absolute;
-  bottom: -12px;
-  right: 2px;
+  bottom: 0;
+  right: 0;
   width: 219px;
   height: 268px;
   background-image: url("../images/gift-raspberries.png");
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scale(0.91);
 }
 
 .marshmallow-gift::before {
   content: "";
   position: absolute;
-  bottom: 5px;
-  right: -10px;
+  bottom: 0;
+  right: 0;
   width: 219px;
-  height: 233px;
+  height: 268px;
   background-image: url("../images/gift-marshmallow.png");
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scale(1.043);
 }
 
 .banners-title {
