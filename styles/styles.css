@@ -1715,6 +1715,7 @@ img {
 }
 
 .ice-cream-filter-title {
+  max-width: 604px;
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
