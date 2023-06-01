@@ -548,14 +548,14 @@ img {
   line-height: 20px;
   background-color: rgba(252, 252, 252, 0.3);
   color: #2d3440;
-  outline: 2px solid #fcfcfc;
+  border: 2px solid #fcfcfc;
   border-radius: 20px;
   padding: 8px 52px;
 }
 
 .filter-additional-button:hover {
   background-color: #fcfcfc;
-  outline: 2px solid rgba(252, 252, 252, 0.3);
+  border: 2px solid rgba(252, 252, 252, 0.3);
 }
 
 .filter-additional-button:active {
@@ -565,13 +565,14 @@ img {
 
 .filter-additional-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.3);
-  outline: 2px solid #2d3440;
+  border: 2px solid #2d3440;
+  outline: none;
 }
 
 .filter-additional-button:disabled {
   background-color: rgba(252, 252, 252, 0.3);
   opacity: 0.4;
-  outline: 2px solid #fcfcfc;
+  border: 2px solid #fcfcfc;
 }
 
 /* Кнопки переключатели в слайдере */
@@ -1710,8 +1711,7 @@ img {
 }
 
 .apply-button {
-  margin: 27px 0 0 -5px;
-  max-height: 36px;
+  margin: 27px 0 0 -8px;
 }
 
 .ice-cream-filter-title {
