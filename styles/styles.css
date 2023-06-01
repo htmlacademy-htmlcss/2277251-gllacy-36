@@ -1985,6 +1985,8 @@ img {
 }
 
 .footer-list-item {
+  display: flex;
+  flex-direction: column;
   min-width: 126px;
 }
 
