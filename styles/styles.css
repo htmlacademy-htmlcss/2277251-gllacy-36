@@ -1042,6 +1042,8 @@ img {
 }
 
 .goods-item {
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 0 40px 24px 40px;
 }
@@ -1115,6 +1117,7 @@ img {
 
 .goods-price-wrapper {
   display: flex;
+  margin-top: auto;
 }
 
 .goods-price {
