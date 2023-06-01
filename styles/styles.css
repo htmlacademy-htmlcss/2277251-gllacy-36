@@ -1449,6 +1449,7 @@ img {
 
 .delivery-form-label-phone {
   max-width: 287px;
+  margin-top: auto;
 }
 
 .send-button {
