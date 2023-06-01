@@ -1302,6 +1302,8 @@ img {
 
 .newsletter {
   position: relative;
+  display: flex;
+  flex-direction: column;
   padding: 32px;
   background-image: url("../images/newsletter-mail-background.png");
   background-repeat: no-repeat;
@@ -1337,10 +1339,12 @@ img {
 }
 
 .newsletter-form .send-button {
+  max-width: 152px;
   margin-right: 4px;
 }
 
 .newsletter-field {
+  align-self: flex-end;
   min-width: 200px;
 }
 
