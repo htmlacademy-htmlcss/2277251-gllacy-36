@@ -1122,6 +1122,7 @@ img {
 }
 
 .goods-price {
+  max-width: 150px;
   align-self: center;
   font-weight: 700;
   font-size: 20px;
