@@ -2539,7 +2539,12 @@ img {
   font-weight: 700;
   font-size: 18px;
   color: #2d3440;
-  align-self: center;
+  padding-top: 11px;
+}
+
+.total-price {
+  display: inline-flex;
+  max-width: 115px;
 }
 
 .cart-item:last-child {
@@ -2547,6 +2552,7 @@ img {
 }
 
 .intermediate-price {
+  max-width: 92px;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -2554,6 +2560,7 @@ img {
 }
 
 .set-an-order-button {
+  max-width: 198px;
   margin-right: 27px;
 }
 
