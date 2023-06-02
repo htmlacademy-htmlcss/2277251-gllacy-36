@@ -2599,6 +2599,8 @@ img {
 }
 
 .login-popover-button {
+  align-self: flex-start;
+  max-width: 113px;
   margin-right: 23px;
 }
 
@@ -2611,6 +2613,10 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 2px;
+}
+
+.login-form-links-item {
+  max-width: 113px;
 }
 
 .login-form-recovery-link,
