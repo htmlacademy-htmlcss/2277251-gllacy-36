@@ -2348,6 +2348,43 @@ img {
   gap: 20px;
 }
 
+.search-popover-field::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search-cancel-button {
+  display: none;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 39px;
+  right: 29px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/popover-delete-item-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.search-popover-field:not(:placeholder-shown) + .search-cancel-button {
+  display: block;
+}
+
+.search-cancel-button:hover {
+  opacity: 0.6;
+}
+
+.search-cancel-button:active {
+  opacity: 0.3;
+}
+
+.search-cancel-button:focus-visible {
+  outline: 2px solid #fa505b;
+  opacity: 1;
+}
+
 .input-invalid {
   outline: 1px solid #ea5454;
   border-radius: 4px;
