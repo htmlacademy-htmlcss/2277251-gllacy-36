@@ -1701,10 +1701,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   min-width: 383px;
-  gap: 16px;
+  gap: 17px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
-  padding: 8px 26px;
+  padding: 7px 24px;
 }
 
 .radio-list {
@@ -1712,11 +1712,12 @@ img {
 }
 
 .checkbox-list {
+  padding: 9px 24px;
   max-width: 610px;
 }
 
 .apply-button {
-  margin: 27px 0 0 -8px;
+  margin: 28px 0 0 -8px;
 }
 
 .ice-cream-filter-title {
@@ -1884,7 +1885,7 @@ img {
 .range-wrapper {
   position: relative;
   width: 196px;
-  padding: 6px 16px;
+  padding: 5px 16px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 20px;
 }
@@ -1896,7 +1897,7 @@ img {
   height: 2px;
   background-color: #565c66;
   opacity: 0.3;
-  top: 18px;
+  top: 17px;
   left: 16px;
   z-index: -1;
 }
@@ -1907,7 +1908,7 @@ img {
   width: 56px;
   height: 2px;
   background-color: #565c66;
-  top: 18px;
+  top: 17px;
   left: 56px;
   z-index: -1;
 }
@@ -1957,11 +1958,11 @@ img {
 }
 
 .toggle-min {
-  transform: translate(24px, -5px);
+  transform: translate(24px, -4px);
 }
 
 .toggle-max {
-  transform: translate(76px, -5px);
+  transform: translate(76px, -4px);
 }
 
 /* Футер */
