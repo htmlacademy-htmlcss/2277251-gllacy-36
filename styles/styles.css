@@ -253,6 +253,7 @@ img {
 .additional-button:focus-visible {
   background-color: #ff2f64;
   outline: 2px solid #2d3440;
+  outline-offset: -1px;
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
 }
 
