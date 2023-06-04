@@ -1,3 +1,12 @@
+/* Отменить введённый текст у инпута */
+
+const searchInput = document.querySelector('.search-popover-field');
+const searchCancelButton = document.querySelector('.search-cancel-button');
+searchCancelButton.addEventListener('click', () => {
+  searchInput.value = '';
+  searchInput.focus();
+});
+
 /* Слайдер */
 
 const sliderTabButtons = document.querySelectorAll('.slider-pagination-button');
@@ -68,13 +77,4 @@ window.addEventListener('click', (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-});
-
-/* Отменить введённый текст у инпута */
-
-const searchInput = document.querySelector('.search-popover-field');
-const searchCancelButton = document.querySelector('.search-cancel-button');
-searchCancelButton.addEventListener('click', () => {
-  searchInput.value = '';
-  searchInput.focus();
 });
