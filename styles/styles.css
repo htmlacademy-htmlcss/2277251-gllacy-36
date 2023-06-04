@@ -294,14 +294,14 @@ img {
 }
 
 .search-button:active {
-  background-color: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #2d3440;
-  outline-offset: -1px;
+  outline: none;
+  background-color: #fcfcfc;
 }
 
 .search-button:focus-visible {
-  outline: none;
-  background-color: #fcfcfc;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
 }
 
 .search-button:focus-within {
@@ -315,10 +315,6 @@ img {
 
 .search-button:focus-within:active {
   opacity: 1;
-}
-
-.search-button:focus-within:focus-visible {
-  opacity: 0.3
 }
 
 .search-button-wrapper:focus-within .search-button:not(:focus) {
@@ -363,13 +359,13 @@ img {
   background-color: rgba(252, 252, 252, 0.5);
 }
 
-.login-button:active {
+.login-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #000000;
   outline-offset: -1px;
 }
 
-.login-button:focus-visible {
+.login-button:active {
   outline: none;
   background-color: #fcfcfc;
 }
@@ -385,10 +381,6 @@ img {
 
 .login-button:focus-within:active {
   opacity: 1;
-}
-
-.login-button:focus-within:focus-visible {
-  opacity: 0.3
 }
 
 .login-button-wrapper:focus-within .login-button:not(:focus) {
@@ -440,14 +432,14 @@ img {
 }
 
 .cart-button:active {
-  background-color: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #000000;
-  outline-offset: -1px;
+  outline: none;
+  background-color: #fcfcfc;
 }
 
 .cart-button:focus-visible {
-  outline: none;
-  background-color: #fcfcfc;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #000000;
+  outline-offset: -1px;
 }
 
 .cart-button:focus-within {
@@ -461,10 +453,6 @@ img {
 
 .cart-button:focus-within:active {
   opacity: 1;
-}
-
-.cart-button:focus-within:focus-visible {
-  opacity: 0.3
 }
 
 .cart-button-wrapper:focus-within .cart-button:not(:focus) {
