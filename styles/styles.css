@@ -2133,6 +2133,7 @@ img {
 .pagination-current {
   background-color: #fcfcfc;
   border-radius: 50px;
+  padding: 2px 8px;
 }
 
 .pagination-link:hover {
