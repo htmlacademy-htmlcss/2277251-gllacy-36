@@ -293,11 +293,6 @@ img {
   background-color: rgba(252, 252, 252, 0.5);
 }
 
-.search-button:active {
-  outline: none;
-  background-color: #fcfcfc;
-}
-
 .search-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
@@ -305,16 +300,14 @@ img {
 }
 
 .search-button:focus-within {
-  background-color: #ff4a78;
-  border-radius: 27px;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
 }
 
-.search-button:focus-within:hover {
-  opacity: 0.6;
-}
-
-.search-button:focus-within:active {
-  opacity: 1;
+.search-button:active {
+  outline: none;
+  background-color: #fcfcfc;
 }
 
 .search-button-wrapper:focus-within .search-button:not(:focus) {
@@ -322,9 +315,10 @@ img {
   color: #fcfcfc;
 }
 
-.search-button:active.search-button::before,
-.search-button:focus-visible.search-button::before,
-.search-button:focus-within.search-button::before,
+.search-button-wrapper:focus-within .search-button:not(:focus):hover {
+  opacity: 0.6;
+}
+
 .search-button-wrapper:focus-within .search-button:not(:focus).search-button::before {
   display: block;
 }
@@ -365,22 +359,15 @@ img {
   outline-offset: -1px;
 }
 
+.login-button:focus-within {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #000000;
+  outline-offset: -1px;
+}
+
 .login-button:active {
   outline: none;
   background-color: #fcfcfc;
-}
-
-.login-button:focus-within {
-  background-color: #ff4a78;
-  color: #fcfcfc;
-}
-
-.login-button:focus-within:hover {
-  opacity: 0.6;
-}
-
-.login-button:focus-within:active {
-  opacity: 1;
 }
 
 .login-button-wrapper:focus-within .login-button:not(:focus) {
@@ -388,14 +375,10 @@ img {
   color: #fcfcfc;
 }
 
-.user-interface-wrapper {
-  display: flex;
-  margin-left: auto;
+.login-button-wrapper:focus-within .login-button:not(:focus):hover {
+  opacity: 0.6;
 }
 
-.login-button:active.login-button::before,
-.login-button:focus-visible.login-button::before,
-.login-button:focus-within.login-button::before,
 .login-button-wrapper:focus-within .login-button:not(:focus).login-button::before {
   display: block;
 }
@@ -431,11 +414,6 @@ img {
   background-color: rgba(252, 252, 252, 0.5);
 }
 
-.cart-button:active {
-  outline: none;
-  background-color: #fcfcfc;
-}
-
 .cart-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #000000;
@@ -443,16 +421,14 @@ img {
 }
 
 .cart-button:focus-within {
-  background-color: #ff4a78;
-  color: #fcfcfc;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #000000;
+  outline-offset: -1px;
 }
 
-.cart-button:focus-within:hover {
-  opacity: 0.6;
-}
-
-.cart-button:focus-within:active {
-  opacity: 1;
+.cart-button:active {
+  outline: none;
+  background-color: #fcfcfc;
 }
 
 .cart-button-wrapper:focus-within .cart-button:not(:focus) {
@@ -460,9 +436,10 @@ img {
   color: #fcfcfc;
 }
 
-.cart-button:active.cart-button::before,
-.cart-button:focus-visible.cart-button::before,
-.cart-button:focus-within.cart-button::before,
+.cart-button-wrapper:focus-within .cart-button:not(:focus):hover {
+  opacity: 0.6;
+}
+
 .cart-button-wrapper:focus-within .cart-button:not(:focus).cart-button::before {
   display: block;
 }
@@ -694,6 +671,11 @@ img {
   right: 18px;
 }
 
+.user-interface-wrapper {
+  display: flex;
+  margin-left: auto;
+}
+
 .user-interface-list {
   display: flex;
   flex-wrap: wrap;
@@ -715,11 +697,6 @@ img {
   border-radius: 30px;
 }
 
-.header-navigation-link:active,
-.header-navigation-button-catalog:active {
-  background-color: #fcfcfc;
-}
-
 .header-navigation-link:focus-visible,
 .header-navigation-button-catalog:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
@@ -729,28 +706,25 @@ img {
 }
 
 .header-navigation-button-catalog:focus-within {
-  background-color: #ff4a78;
-  border-radius: 30px;
-  fill: #fcfcfc;
-  color: #fcfcfc;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
 }
 
-.header-navigation-button-catalog:focus-within .header-catalog-image {
-  transform: rotate(180deg);
-}
-
-.header-navigation-button-catalog:focus-within:hover {
-  opacity: 0.6;
-}
-
-.header-navigation-button-catalog:focus-within:active {
-  opacity: 0.3;
+.header-navigation-link:active,
+.header-navigation-button-catalog:active {
+  outline: none;
+  background-color: #fcfcfc;
 }
 
 .catalog-button-wrapper:focus-within .header-navigation-button-catalog:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
+}
+
+.catalog-button-wrapper:focus-within .header-navigation-button-catalog:not(:focus):hover {
+  opacity: 0.6;
 }
 
 .catalog-button-wrapper:focus-within .header-catalog-image {
