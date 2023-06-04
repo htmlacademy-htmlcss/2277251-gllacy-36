@@ -73,8 +73,8 @@ closeBtn.addEventListener('click', (evt) => {
   modal.style.display = "none";
 });
 
-window.addEventListener('click', (event) => {
-  if (event.target == modal) {
+window.addEventListener('click', (evt) => {
+  if (evt.target == modal) {
     modal.style.display = "none";
   }
 });
