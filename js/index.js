@@ -78,3 +78,9 @@ window.addEventListener('click', (event) => {
     modal.style.display = "none";
   }
 });
+
+document.addEventListener('keydown', (evt) => {
+  if (evt.key === 'Escape') {
+    modal.style.display = "none";
+  }
+});
