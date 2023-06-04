@@ -827,6 +827,10 @@ img {
   color: #2d3440;
 }
 
+.order-button-link {
+  margin-bottom: 4px;
+}
+
 .slider-item-current {
   order: -1;
   width: 888px;
