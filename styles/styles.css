@@ -927,7 +927,7 @@ img {
 /* Секция баннеров с подарками */
 
 .banners {
-  margin-bottom: 80px;
+  margin-bottom: 81px;
 }
 
 .gifts-list {
@@ -978,7 +978,7 @@ img {
   text-align: center;
   color: #2d3440;
   max-width: 434px;
-  margin: 0 auto 55px;
+  margin: 0 auto 54px;
 }
 
 .gift-title {
