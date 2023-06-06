@@ -2160,15 +2160,12 @@ img {
 
 .pagination-prev:hover,
 .pagination-next:hover {
-  background-color: rgba(252, 252, 252, 0.5);
-  border-radius: 50px;
+  opacity: 0.4;
 }
 
 .pagination-prev:active,
 .pagination-next:active {
-  background-color: rgba(252, 252, 252, 0.5);
-  outline: 1px solid #fcfcfc;
-  outline-offset: -1px;
+  opacity: 0.3;
 }
 
 .pagination-prev:focus-visible,
