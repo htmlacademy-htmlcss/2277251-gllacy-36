@@ -820,7 +820,7 @@ img {
 
 .slider-item-current {
   order: -1;
-  width: 888px;
+  width: 890px;
   display: grid;
   grid-template-columns: 500px 357px;
   gap: 30px;
