@@ -136,7 +136,6 @@ img {
   border: none;
   cursor: pointer;
   background-color: rgba(252, 252, 252, 0.3);
-  fill: #2d3440;
 }
 
 .field {
@@ -667,7 +666,6 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #2d3440;
-  fill: #2d3440;
   padding: 8px 40px 8px 16px;
 }
 
@@ -731,7 +729,6 @@ img {
 
 .catalog-button-wrapper:focus-within .navigation-catalog-button:not(:focus) {
   background-color: #ff4a78;
-  fill: #fcfcfc;
   color: #fcfcfc;
 }
 
@@ -2064,7 +2061,6 @@ img {
 .logo-html-academy {
   display: flex;
   align-self: start;
-  fill: #2d3440;
   width: 93px;
   height: 27px;
   background-image: url("../images/html-academy-logo.svg");
