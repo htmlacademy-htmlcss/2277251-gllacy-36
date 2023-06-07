@@ -405,11 +405,11 @@
                   Укажите дату предполагаемой доставки
                 </span>
               </span>
-              <input class="field date-field" type="text" placeholder="01.04.2020" required>
+              <input class="field date-field" type="text" placeholder="01.04.2020" name="delivery-date" required>
             </label>
             <label class="delivery-form-label delivery-form-label-phone">
               Телефон
-              <input class="field phone-field" type="tel" placeholder="+7 800 999-00-00" required>
+              <input class="field phone-field" type="tel" placeholder="+7 800 999-00-00" name="delivery-phone" required>
             </label>
             <label class="delivery-form-label">
               Адрес
@@ -418,7 +418,7 @@
                   Введите название улицы, дома и квартиры
                 </span>
               </span>
-              <input class="field address-field" type="text" placeholder="ул. Большая Конюшенная, 19/8" required>
+              <input class="field address-field" type="text" placeholder="ул. Большая Конюшенная, 19/8" name="delivery-address" required>
             </label>
             <button class="button additional-button send-button" type="submit">
               Отправить
@@ -501,9 +501,9 @@
         <section class="modal-content">
           <h2 class="modal-title">Мы обязательно ответим вам!</h2>
           <form class="modal-feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" type="text" name="fullname"
+            <input class="field" type="text" name="user-name"
             placeholder="Имя и фамилия" aria-label="Имя и фамилия." required>
-            <input class="field" type="email" name="email"
+            <input class="field" type="email" name="user-email"
             placeholder="email@example.com" aria-label="Ваш email." required>
             <textarea class="feedback-textarea" name="free-form" cols="30" rows="6" placeholder="В свободной форме"></textarea>
             <button class="button additional-button modal-send-button" type="submit">
