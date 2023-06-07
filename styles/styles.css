@@ -661,7 +661,7 @@ img {
   max-width: 465px;
 }
 
-.header-navigation-button-catalog {
+.navigation-catalog-button {
   position: relative;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -671,10 +671,16 @@ img {
   padding: 8px 40px 8px 16px;
 }
 
-.header-catalog-image {
+.navigation-catalog-button::after {
+  content: "";
   position: absolute;
+  width: 12px;
+  height: 7px;
   top: 14px;
-  right: 18px;
+  right: 19px;
+  mask: url("../images/catalog-arrow.svg");
+  -webkit-mask: url("../images/catalog-arrow.svg");
+  background-color: #2d3440;
 }
 
 .user-interface-wrapper {
@@ -698,42 +704,46 @@ img {
 }
 
 .header-navigation-link:hover,
-.header-navigation-button-catalog:hover {
+.navigation-catalog-button:hover {
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
 
 .header-navigation-link:focus-visible,
-.header-navigation-button-catalog:focus-visible {
+.navigation-catalog-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   outline-offset: -1px;
   border-radius: 30px;
 }
 
-.header-navigation-button-catalog:focus-within {
+.navigation-catalog-button:focus-within {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   outline-offset: -1px;
 }
 
 .header-navigation-link:active,
-.header-navigation-button-catalog:active {
+.navigation-catalog-button:active {
   outline: none;
   background-color: #fcfcfc;
 }
 
-.catalog-button-wrapper:focus-within .header-navigation-button-catalog:not(:focus) {
+.catalog-button-wrapper:focus-within .navigation-catalog-button:not(:focus) {
   background-color: #ff4a78;
   fill: #fcfcfc;
   color: #fcfcfc;
 }
 
-.catalog-button-wrapper:focus-within .header-navigation-button-catalog:not(:focus):hover {
+.catalog-button-wrapper:focus-within .navigation-catalog-button:not(:focus):hover {
   opacity: 0.6;
 }
 
-.catalog-button-wrapper:focus-within .header-catalog-image {
+.catalog-button-wrapper:focus-within .navigation-catalog-button:not(:focus)::after {
+  background-color: #ffffff;
+}
+
+.catalog-button-wrapper:focus-within .navigation-catalog-button::after {
   transform: rotate(180deg);
 }
 
