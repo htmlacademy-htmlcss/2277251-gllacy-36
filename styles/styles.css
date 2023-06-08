@@ -802,6 +802,7 @@ img {
   line-height: 46px;
   color: #2d3440;
   margin: 0 0 24px 0;
+  white-space: pre-line;
 }
 
 .slider-description {
@@ -812,6 +813,7 @@ img {
   font-size: 18px;
   line-height: 24px;
   color: #2d3440;
+  white-space: pre-line;
 }
 
 .order-button-link {
@@ -1094,6 +1096,7 @@ img {
   margin-top: 0;
   text-align: center;
   color: #565c66;
+  white-space: pre-line;
 }
 
 .goods-price-wrapper {
@@ -2272,6 +2275,7 @@ img {
   line-height: 20px;
   color: #2d3440;
   padding: 6px 16px;
+  white-space: nowrap;
 }
 
 .catalog-popover-link-novelties {
