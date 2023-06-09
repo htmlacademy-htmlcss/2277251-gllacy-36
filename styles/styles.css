@@ -1060,6 +1060,7 @@ img {
 .goods-title-link {
   margin-bottom: 8px;
   display: block;
+  align-self: center;
   text-align: center;
   text-decoration: none;
   font-weight: 700;
