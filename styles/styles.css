@@ -2127,6 +2127,7 @@ img {
 }
 
 .pagination-disable {
+  cursor: default;
   opacity: 0.3;
 }
 
