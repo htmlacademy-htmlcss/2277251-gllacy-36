@@ -1946,7 +1946,7 @@ img {
 .page-footer {
   margin-top: auto;
   display: grid;
-  grid-template-columns: 353px 451px 1fr;
+  grid-template-columns: 353px 451px 367px;
   padding: 48px 0;
 }
 
