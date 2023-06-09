@@ -1559,6 +1559,7 @@ img {
 }
 
 .contacts-phone {
+  align-self: flex-start;
   text-decoration: none;
   color: #2d3440;
   font-weight: 700;
