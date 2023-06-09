@@ -1526,7 +1526,7 @@ img {
   box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
   width: 343px;
-  padding: 40px;
+  padding: 40px 40px 41px;
 }
 
 .contacts-description {
@@ -1575,7 +1575,7 @@ img {
 }
 
 .contacts-phone-text {
-  margin-bottom: 34px;
+  margin-bottom: 33px;
   font-size: 14px;
   line-height: 20px;
   color: #565c66;
@@ -1970,6 +1970,10 @@ img {
   display: flex;
   flex-direction: column;
   min-width: 126px;
+}
+
+.footer-list-item:nth-child(2) {
+  padding-top: 1px;
 }
 
 .copyright-wrapper {
