@@ -767,7 +767,7 @@ img {
 
 .slider {
   padding-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 77px;
 }
 
 .slider-wrapper {
@@ -879,7 +879,8 @@ img {
 .slider-footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 3px;
+  min-height: 28px;
 }
 
 .slider-pagination-list {
@@ -928,7 +929,7 @@ img {
 /* Секция баннеров с подарками */
 
 .banners {
-  margin-bottom: 81px;
+  margin-bottom: 82px;
 }
 
 .gifts-list {
@@ -1110,7 +1111,7 @@ img {
 
 .about-us {
   position: relative;
-  padding: 80px 64px;
+  padding: 81px 64px 80px;
   border-radius: 16px;
   background-image: url("../images/waffle-background.jpg");
   background-repeat: no-repeat;
@@ -1237,7 +1238,7 @@ img {
 
 .news-serving {
   min-width: 570px;
-  padding: 33px 235px 67px 32px;
+  padding: 33px 235px 68px 32px;
   border-radius: 16px;
   background-image: url("../images/news-serving-background.jpg");
   background-repeat: no-repeat;
@@ -1246,7 +1247,7 @@ img {
 }
 
 .news-title {
-  margin: 0 0 14px 0;
+  margin: 0 0 13px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1304,7 +1305,7 @@ img {
 }
 
 .newsletter-description {
-  margin: 0 0 46px 0;
+  margin: 0 0 45px 0;
   color: #565c66;
 }
 
@@ -1364,7 +1365,7 @@ img {
 .delivery-description-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 23px;
   padding-top: 104px;
   max-width: 375px;
 }
@@ -1377,7 +1378,7 @@ img {
 .delivery-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 22px 16px;
+  gap: 21px 16px;
 }
 
 .delivery-form .field {
@@ -1438,7 +1439,7 @@ img {
 }
 
 .send-button {
-  margin: 0 auto;
+  margin: 1px auto 0;
 }
 
 .tooltip {
@@ -1527,7 +1528,7 @@ img {
   box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
   width: 343px;
-  padding: 40px 40px 41px;
+  padding: 40px 40px 42px;
 }
 
 .contacts-description {
@@ -1576,7 +1577,7 @@ img {
 }
 
 .contacts-phone-text {
-  margin-bottom: 33px;
+  margin-bottom: 32px;
   font-size: 14px;
   line-height: 20px;
   color: #565c66;
