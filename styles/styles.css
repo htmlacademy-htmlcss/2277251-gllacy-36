@@ -176,6 +176,7 @@ img {
 .field::placeholder,
 .feedback-textarea::placeholder {
   color: #b9b9b9;
+  opacity: 1;
 }
 
 /* Кнопки "Основные" */
