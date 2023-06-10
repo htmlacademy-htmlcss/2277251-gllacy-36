@@ -128,6 +128,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  color: #2d3440;
   border: none;
   cursor: pointer;
   background-color: rgba(252, 252, 252, 0.3);
@@ -1543,11 +1544,11 @@ img {
 
 .contacts-address {
   font-style: normal;
-  margin: 0;
+  margin: 0 0 24px 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  margin-bottom: 24px;
+  color: #2d3440;
 }
 
 .contacts-phone {
@@ -1984,6 +1985,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
+  color: #2d3440;
   margin: 0;
   padding-top: 1px;
 }
