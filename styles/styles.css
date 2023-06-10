@@ -1758,6 +1758,9 @@ img {
   position: relative;
   cursor: pointer;
   padding-left: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
 }
 
 .control-outline {
@@ -1778,7 +1781,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 4px;
+  top: 2px;
   left: 0;
   border: 1.5px solid #2d3440;
   border-radius: 50%;
@@ -1808,7 +1811,7 @@ img {
   position: absolute;
   width: 6px;
   height: 6px;
-  top: 9px;
+  top: 7px;
   left: 5px;
   background-color: #2d3440;
   border-radius: 50%;
@@ -1819,7 +1822,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 4px;
+  top: 2px;
   left: 0;
   background-image: url("../images/checkbox-not-checked.svg");
   background-repeat: no-repeat;
