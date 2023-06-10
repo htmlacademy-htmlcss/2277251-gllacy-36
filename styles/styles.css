@@ -1742,18 +1742,6 @@ img {
   border-radius: 26px;
 }
 
-.input-radio-text {
-  font-size: 14px;
-  line-height: 20px;
-  color: #2d3440;
-}
-
-.input-checkbox-text {
-  font-size: 14px;
-  line-height: 20px;
-  color: #2d3440;
-}
-
 .control {
   position: relative;
   cursor: pointer;
@@ -1795,8 +1783,7 @@ img {
   background-color: #fcfcfc;
 }
 
-.control:active .input-radio-text,
-.control:active .input-checkbox-text {
+.control:active {
   opacity: 0.7;
 }
 
