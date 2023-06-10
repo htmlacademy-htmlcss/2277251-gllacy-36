@@ -1689,10 +1689,12 @@ img {
 
 .radio-list {
   max-width: 386px;
+  height: 36px;
 }
 
 .checkbox-list {
   padding: 8px 24px 10px;
+  height: 40px;
   max-width: 610px;
 }
 
