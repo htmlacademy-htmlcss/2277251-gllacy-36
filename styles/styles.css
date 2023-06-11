@@ -1816,7 +1816,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 2px;
+  top: 3px;
   left: 0;
   display: none;
   background-color: #fcfcfc;
@@ -1835,7 +1835,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 2px;
+  top: 3px;
   left: 0;
   background-color: #fcfcfc;
   -webkit-mask: url("../images/checkbox-checked.svg");
