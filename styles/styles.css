@@ -2424,8 +2424,7 @@ img {
   background-color: transparent;
   cursor: pointer;
   padding: 3px;
-  margin-left: auto;
-  align-self: center;
+  margin: 14px 0 0 auto;
 }
 
 .popover-item-close-button:hover {
@@ -2495,7 +2494,7 @@ img {
   width: 345px;
   height: 1px;
   border: 1px solid #e7e7e7;
-  bottom: 31px;
+  bottom: 28px;
 }
 
 .cart-item {
@@ -2520,7 +2519,12 @@ img {
   font-weight: 700;
   font-size: 18px;
   color: #2d3440;
-  padding-top: 11px;
+  padding-top: 12px;
+}
+
+.cart-item-price:not(:last-child) {
+  margin-left: 2px;
+  max-width: 86px;
 }
 
 .total-price {
@@ -2529,7 +2533,7 @@ img {
 }
 
 .cart-item:last-child {
-  margin-bottom: 62px;
+  margin-bottom: 60px;
 }
 
 .intermediate-price {
