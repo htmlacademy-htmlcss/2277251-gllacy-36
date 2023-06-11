@@ -1678,17 +1678,15 @@ img {
   gap: 17px;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
-  padding: 6px 24px 8px;
+  padding: 8px 24px 8px 24px
 }
 
 .radio-list {
   max-width: 386px;
-  height: 36px;
 }
 
 .checkbox-list {
-  padding: 8px 24px 10px;
-  height: 40px;
+  padding: 10px 24px 10px 24px;
   max-width: 610px;
 }
 
@@ -1740,6 +1738,7 @@ img {
 
 .control {
   position: relative;
+  display: flex;
   cursor: pointer;
   padding-left: 24px;
   font-size: 14px;
@@ -1765,7 +1764,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 2px;
+  top: 3px;
   left: 0;
   border: 1.5px solid #2d3440;
   border-radius: 50%;
@@ -1794,7 +1793,7 @@ img {
   position: absolute;
   width: 6px;
   height: 6px;
-  top: 7px;
+  top: 8px;
   left: 5px;
   background-color: #2d3440;
   border-radius: 50%;
@@ -1805,7 +1804,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 2px;
+  top: 3px;
   left: 0;
   background-image: url("../images/checkbox-not-checked.svg");
   background-repeat: no-repeat;
