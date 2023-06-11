@@ -1626,7 +1626,6 @@ img {
 }
 
 .breadcrumbs-link-current {
-  /* border-bottom: 1px solid #2d3440; */
   text-decoration: underline;
   text-decoration-color: #2d3440;
   text-decoration-thickness: 1px;
