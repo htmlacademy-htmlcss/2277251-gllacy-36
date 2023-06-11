@@ -637,7 +637,7 @@ img {
 }
 
 .header-logo:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -1076,7 +1076,7 @@ img {
 
 .goods-title-link:focus-visible,
 .cart-item-title-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -1265,7 +1265,7 @@ img {
 }
 
 .news-description-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -1638,7 +1638,7 @@ img {
 }
 
 .breadcrumbs-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -1785,7 +1785,7 @@ img {
 
 .input-checkbox:focus-visible + .control-outline,
 .input-radio:focus-visible + .control-outline {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -2015,7 +2015,7 @@ img {
 }
 
 .footer-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -2046,7 +2046,7 @@ img {
 }
 
 .copyright-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -2070,7 +2070,7 @@ img {
 }
 
 .logo-html-academy:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
@@ -2363,7 +2363,7 @@ img {
 }
 
 .search-cancel-button:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   opacity: 1;
 }
 
@@ -2438,7 +2438,7 @@ img {
 }
 
 .popover-item-close-button:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
 }
 
 .cart-popover-empty {
@@ -2629,7 +2629,7 @@ img {
 
 .login-form-recovery-link:focus-visible,
 .registration-form-link:focus-visible {
-  outline: 2px solid #69a9ff;
+  outline: 2px solid #2d3440;
   outline-offset: 2px;
 }
 
