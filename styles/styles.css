@@ -2302,6 +2302,11 @@ img {
   color: #fcfcfc;
 }
 
+.catalog-popover-link:focus-visible {
+  outline: 1px solid #000000;
+  outline-offset: -1px;
+}
+
 /* Поповер поиска */
 
 .search-button-wrapper {
