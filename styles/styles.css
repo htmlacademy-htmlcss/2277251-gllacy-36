@@ -740,8 +740,8 @@ img {
   font-weight: 700;
   color: #2d3440;
   line-height: 20px;
-  padding: 20px 0;
-  margin-right: 16px;
+  margin: 13px 16px 13px 9px;
+  padding: 8px 1px;
 }
 
 .header-tel-link:hover {
