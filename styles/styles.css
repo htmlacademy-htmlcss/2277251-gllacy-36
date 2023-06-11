@@ -168,11 +168,6 @@ img {
   border: none;
 }
 
-.field:disabled:hover::placeholder,
-.feedback-textarea:disabled:hover::placeholder {
-  color: #6e727b;
-}
-
 .field::placeholder,
 .feedback-textarea::placeholder {
   color: #b9b9b9;
