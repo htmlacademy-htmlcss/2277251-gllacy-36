@@ -2296,7 +2296,7 @@ img {
   background-color: #ff7799;
 }
 
-.catalog-popover-link:focus-visible {
+.catalog-popover-link.catalog-popover-link-current {
   outline: none;
   background-color: #ff4a78;
   color: #fcfcfc;
