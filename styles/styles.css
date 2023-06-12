@@ -1291,7 +1291,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #69a9ff;
+  background-color: #2d3440;
   z-index: 1;
   border-radius: 16px;
 }
@@ -1519,7 +1519,7 @@ img {
   background-image: url("../images/feedback-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fcc850;
+  background-color: #e6c6c9;
   background-size: cover;
   border-radius: 16px;
   z-index: -1;
