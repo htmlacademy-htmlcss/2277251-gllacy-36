@@ -1466,7 +1466,7 @@ img {
 .tooltip-text {
   position: absolute;
   top: -9px;
-  left: 35px;
+  left: 30px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
   line-height: 16px;
@@ -1498,6 +1498,8 @@ img {
 }
 
 .tooltip:hover .tooltip-text {
+  font-weight: 400;
+  color: #565c66;
   display: block;
 }
 
