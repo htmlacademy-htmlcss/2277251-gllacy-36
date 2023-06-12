@@ -625,7 +625,7 @@ img {
 }
 
 .logo-image {
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .header-logo:hover {
@@ -655,6 +655,7 @@ img {
   line-height: 20px;
   color: #2d3440;
   padding: 8px 40px 8px 16px;
+  margin-bottom: 2px;
 }
 
 .navigation-catalog-button::after {
@@ -662,7 +663,7 @@ img {
   position: absolute;
   width: 12px;
   height: 7px;
-  top: 14px;
+  top: 15px;
   right: 19px;
   mask: url("../images/catalog-arrow.svg");
   -webkit-mask: url("../images/catalog-arrow.svg");
@@ -687,6 +688,18 @@ img {
   color: #2d3440;
   line-height: 20px;
   padding: 8px 16px;
+}
+
+.navigation-link-delivery {
+  padding: 8px 16px 8px 15px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.navigation-link-about-us {
+  margin-bottom: 2px;
+  display: block;
+  padding: 8px 16px 8px 17px;
 }
 
 .header-navigation-link:hover,
@@ -762,7 +775,7 @@ img {
 /* Слайдер */
 
 .slider {
-  padding-top: 40px;
+  padding-top: 39px;
   margin-bottom: 77px;
 }
 
@@ -789,7 +802,7 @@ img {
   font-size: 36px;
   line-height: 46px;
   color: #2d3440;
-  margin: 0 0 25px 0;
+  margin: 0 0 24px 0;
 }
 
 .slider-description {
@@ -1317,7 +1330,7 @@ img {
   display: flex;
   width: 506px;
   min-height: 42px;
-  gap: 18px;
+  gap: 19px;
 }
 
 .newsletter-form .send-button {
@@ -1599,7 +1612,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 50px;
+  margin-top: 49px;
 }
 
 .breadcrumbs-list {
