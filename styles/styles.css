@@ -985,7 +985,7 @@ img {
   text-align: center;
   color: #2d3440;
   max-width: 434px;
-  margin: 0 auto 54px;
+  margin: 0 auto 54px auto;
 }
 
 .gift-title {
@@ -1047,7 +1047,7 @@ img {
 
 .goods-image {
   display: block;
-  margin: 0 auto 16px;
+  margin: 0 auto 16px auto;
   object-fit: cover;
   clip-path: circle(50% at 50% 50%);
 }
@@ -1060,7 +1060,7 @@ img {
   text-align: center;
   color: #2d3440;
   max-width: 527px;
-  margin: 0 auto 55px;
+  margin: 0 auto 55px auto;
 }
 
 .goods-title-link {
@@ -1115,7 +1115,7 @@ img {
 
 .about-us {
   position: relative;
-  padding: 81px 64px 80px;
+  padding: 81px 64px 80px 64px;
   border-radius: 16px;
   background-image: url("../images/waffle-background.jpg");
   background-repeat: no-repeat;
@@ -1443,7 +1443,7 @@ img {
 }
 
 .send-button {
-  margin: 1px auto 0;
+  margin: 1px auto 0 auto;
 }
 
 .tooltip {
@@ -1532,7 +1532,7 @@ img {
   box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
   width: 343px;
-  padding: 40px 40px 42px;
+  padding: 40px 40px 42px 40px;
 }
 
 .contacts-description {
@@ -1676,8 +1676,6 @@ img {
 
 .ice-cream-filter-group {
   margin: 0;
-  padding-right: 0;
-  padding-left: 0;
   padding: 0;
   border: none;
 }
@@ -2090,7 +2088,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 80px;
-  padding: 41px 0 80px;
+  padding: 41px 0 80px 0;
 }
 
 .pagination-wrapper {
