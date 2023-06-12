@@ -650,6 +650,7 @@ img {
 
 .navigation-catalog-button {
   position: relative;
+  max-width: 119px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -691,12 +692,14 @@ img {
 }
 
 .navigation-link-delivery {
+  max-width: 178px;
   padding: 8px 16px 8px 15px;
   margin-bottom: 2px;
   display: block;
 }
 
 .navigation-link-about-us {
+  max-width: 127px;
   margin-bottom: 2px;
   display: block;
   padding: 8px 16px 8px 17px;
