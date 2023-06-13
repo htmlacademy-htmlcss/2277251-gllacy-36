@@ -659,6 +659,18 @@ img {
   margin-bottom: 2px;
 }
 
+.navigation-catalog-button::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  top: 15px;
+  right: 19px;
+  background-image: url("../images/catalog-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 87px 15px;
+}
+
 .navigation-catalog-button::after {
   content: "";
   position: absolute;
@@ -744,6 +756,7 @@ img {
   background-color: #ffffff;
 }
 
+.catalog-button-wrapper:focus-within .navigation-catalog-button::before,
 .catalog-button-wrapper:focus-within .navigation-catalog-button::after {
   transform: rotate(180deg);
 }
