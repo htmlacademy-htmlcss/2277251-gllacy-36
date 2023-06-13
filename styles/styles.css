@@ -2323,7 +2323,7 @@ img {
 .catalog-popover-link-novelties::after {
   content: "";
   position: absolute;
-  top: 39px;
+  top: 109%;
   left: 15px;
   width: 103px;
   height: 1px;
