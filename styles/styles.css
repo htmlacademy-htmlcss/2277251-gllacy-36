@@ -2150,6 +2150,7 @@ img {
 }
 
 .button-show-more {
+  max-width: 179px;
   margin-left: 50%;
   transform: translateX(-54%);
 }
