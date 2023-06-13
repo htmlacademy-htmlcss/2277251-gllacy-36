@@ -311,7 +311,7 @@ img {
   opacity: 0.6;
 }
 
-.search-button-wrapper:focus-within .search-button:not(:focus).search-button::before {
+.search-button-wrapper:focus-within .search-button:not(:focus)::before {
   display: block;
 }
 
@@ -371,7 +371,7 @@ img {
   opacity: 0.6;
 }
 
-.login-button-wrapper:focus-within .login-button:not(:focus).login-button::before {
+.login-button-wrapper:focus-within .login-button:not(:focus)::before {
   display: block;
 }
 
@@ -432,7 +432,7 @@ img {
   opacity: 0.6;
 }
 
-.cart-button-wrapper:focus-within .cart-button:not(:focus).cart-button::before {
+.cart-button-wrapper:focus-within .cart-button:not(:focus)::before {
   display: block;
 }
 
